@@ -18,7 +18,7 @@ showSong(songFilter);
 
 function showSong(songFilter) {
   for (const song of songFilter) {
-    list.appendChild(new SongSelector(song).buildHTML());
+    list.appendChild(new SongSelector(new Song(song)).buildHTML());
   }
 
   count.innerText = songFilter.length;

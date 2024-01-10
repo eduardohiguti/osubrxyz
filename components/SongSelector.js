@@ -48,8 +48,6 @@ class Song {
 }
 
 class SongSelector {
-  song;
-
   /**
    * @param { Song } song
    */
@@ -58,9 +56,13 @@ class SongSelector {
   }
 
   buildHTML() {
+
     const baseDiv = document.createElement("div");
     baseDiv.classList.add("song");
     baseDiv.innerHTML = `
+    <div class="hoverSideOptions">
+      <i class="fa-solid fa-download" onClick="URLUtils.handleOsuDirectFor(${this.song.id})"></i>
+    </div>
     <div 
       class="thumbnail"
       onclick="preview.handlePreviewClick(${this.song.id}, '${TextUtils.encodeText(this.song.tite)}', '${TextUtils.encodeText(this.song.artist)}')">
@@ -85,6 +87,15 @@ class SongSelector {
       .join("")}</div>`;
 
     return baseDiv;
+  }
+}
+
+class URLUtils {
+  /**
+   * @param {Number} id 
+   */
+  static handleOsuDirectFor(id) {
+    window.open(`osu://s/${id}`)
   }
 }
 

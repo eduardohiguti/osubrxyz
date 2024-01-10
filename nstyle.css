@@ -209,6 +209,14 @@ body {
   display: flex;
 }
 
+.song:hover {
+  .hoverSideOptions {
+    width: 30px;
+    pointer-events: all;
+    opacity: 1;
+  }
+}
+
 .song {
   background: #ebebeb;
 
@@ -224,6 +232,34 @@ body {
   grid-gap: 8px;
   grid-row-gap: 0px;
   text-align: left;
+  position: relative;
+  overflow: hidden;
+  
+
+
+  .hoverSideOptions {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    width: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #5b9c5d;
+    pointer-events: none;
+    opacity: 0;
+    transition: 80ms linear;
+    color: white;
+    
+    i {
+      cursor: pointer;
+    }
+  }
 }
 
 *,
