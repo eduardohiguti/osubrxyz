@@ -42,6 +42,7 @@
             type="text"
             name="name"
             placeholder="Procure por artista, título ou mapper"
+            onkeyup="listing.handleSearch(this.value)"
           />
 
           <svg
@@ -62,20 +63,40 @@
           <div class="mode-text">Modo</div>
           <div class="row mt-5 filter-buttons" id="filter-mode">
             <div class="col-12">
-              <button class="btn mb-2 me-1 active" data-filter="all">
+              <button
+                class="btn mb-2 me-1 active"
+                data-filter="mode:Todos"
+                onclick='listing.toggleModeFilter(this.getAttribute("data-filter"))'
+              >
                 Todos
               </button>
-              <button class="btn mb-2 mx-1" data-filter='"mode":0'>
+              <button
+                class="btn mb-2 mx-1"
+                data-filter="mode:0"
+                onclick='listing.toggleModeFilter(this.getAttribute("data-filter"))'
+              >
                 Standard
               </button>
-              <button class="btn mb-2 mx-1" data-filter='"mode":1'>
+              <button
+                class="btn mb-2 mx-1"
+                data-filter="mode:1"
+                onclick='listing.toggleModeFilter(this.getAttribute("data-filter"))'
+              >
                 Taiko
               </button>
 
-              <button class="btn mb-2 mx-1" data-filter='"mode":2'>
+              <button
+                class="btn mb-2 mx-1"
+                data-filter="mode:2"
+                onclick='listing.toggleModeFilter(this.getAttribute("data-filter"))'
+              >
                 Catch the Beat
               </button>
-              <button class="btn mb-2 mx-1" data-filter='"mode":3'>
+              <button
+                class="btn mb-2 mx-1"
+                data-filter="mode:3"
+                onclick='listing.toggleModeFilter(this.getAttribute("data-filter"))'
+              >
                 Mania
               </button>
             </div>
@@ -84,53 +105,195 @@
           <div class="genero-text">Gênero</div>
           <div class="row mt-5 genres-buttons filter-buttons" id="filter-genre">
             <div class="col-12">
-              <button class="btn mb-2 me-1 active" data-filter="all">
+              <button
+                class="btn mb-2 me-1 active"
+                data-filter="genre:Todos"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
                 Todos
               </button>
-              <button class="btn mb-2 me-1" data-filter="Anos 80">
+              <button
+                class="btn mb-2 me-1"
+                data-filter="genre:Anos 80"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
                 Anos 80
               </button>
-              <button class="btn mb-2 me-1" data-filter="Arrocha">
+              <button
+                class="btn mb-2 me-1"
+                data-filter="genre:Arrocha"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
                 Arrocha
               </button>
-              <button class="btn mb-2 me-1" data-filter="Brega">Brega</button>
-              <button class="btn mb-2 me-1" data-filter="Drum N Bass">
+              <button
+                class="btn mb-2 me-1"
+                data-filter="genre:Brega"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
+                Brega
+              </button>
+              <button
+                class="btn mb-2 me-1"
+                data-filter="genre:Drum N Bass"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
                 Drum N Bass
               </button>
-              <button class="btn mb-2 me-1" data-filter="Eletrônica">
+              <button
+                class="btn mb-2 me-1"
+                data-filter="genre:Eletrônica"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
                 Eletrônica
               </button>
-              <button class="btn mb-2 me-1" data-filter="Emo">Emo</button>
-              <button class="btn mb-2 me-1" data-filter="Forró">Forró</button>
-              <button class="btn mb-2 me-1" data-filter="Funk">Funk</button>
-              <button class="btn mb-2 me-1" data-filter="Gospel">Gospel</button>
-              <button class="btn mb-2 me-1" data-filter="Heavy Metal">
+              <button
+                class="btn mb-2 me-1"
+                data-filter="genre:Emo"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
+                Emo
+              </button>
+              <button
+                class="btn mb-2 me-1"
+                data-filter="genre:Forró"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
+                Forró
+              </button>
+              <button
+                class="btn mb-2 me-1"
+                data-filter="genre:Funk"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
+                Funk
+              </button>
+              <button
+                class="btn mb-2 me-1"
+                data-filter="genre:Gospel"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
+                Gospel
+              </button>
+              <button
+                class="btn mb-2 me-1"
+                data-filter="genre:Heavy Metal"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
                 Heavy Metal
               </button>
-              <button class="btn mb-2 me-1" data-filter="Indie">Indie</button>
-              <button class="btn mb-2 me-1" data-filter="LEWD">LEWD</button>
-              <button class="btn mb-2 me-1" data-filter="Lo-Fi">Lo-Fi</button>
-              <button class="btn mb-2 me-1" data-filter="Mashup">Mashup</button>
-              <button class="btn mb-2 me-1" data-filter="Meme">Meme</button>
-              <button class="btn mb-2 me-1" data-filter="MPB">MPB</button>
-              <button class="btn mb-2 me-1" data-filter="Pagode">Pagode</button>
-              <button class="btn mb-2 me-1" data-filter="Rap">Rap</button>
-              <button class="btn mb-2 me-1" data-filter="Rock">Rock</button>
-              <button class="btn mb-2 me-1" data-filter="Rock Alternativo">
+              <button
+                class="btn mb-2 me-1"
+                data-filter="genre:Indie"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
+                Indie
+              </button>
+              <button
+                class="btn mb-2 me-1"
+                data-filter="genre:LEWD"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
+                LEWD
+              </button>
+              <button
+                class="btn mb-2 me-1"
+                data-filter="genre:Lo-Fi"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
+                Lo-Fi
+              </button>
+              <button
+                class="btn mb-2 me-1"
+                data-filter="genre:Mashup"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
+                Mashup
+              </button>
+              <button
+                class="btn mb-2 me-1"
+                data-filter="genre:Meme"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
+                Meme
+              </button>
+              <button
+                class="btn mb-2 me-1"
+                data-filter="genre:MPB"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
+                MPB
+              </button>
+              <button
+                class="btn mb-2 me-1"
+                data-filter="genre:Pagode"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
+                Pagode
+              </button>
+              <button
+                class="btn mb-2 me-1"
+                data-filter="genre:Rap"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
+                Rap
+              </button>
+              <button
+                class="btn mb-2 me-1"
+                data-filter="genre:Rock"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
+                Rock
+              </button>
+              <button
+                class="btn mb-2 me-1"
+                data-filter="genre:Rock Alternativo"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
                 Rock Alternativo
               </button>
-              <button class="btn mb-2 me-1" data-filter="Rock Cômico">
+              <button
+                class="btn mb-2 me-1"
+                data-filter="genre:Rock Cômico"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
                 Rock Cômico
               </button>
-              <button class="btn mb-2 me-1" data-filter="Samba">Samba</button>
-              <button class="btn mb-2 me-1" data-filter="Sertanejo">
+              <button
+                class="btn mb-2 me-1"
+                data-filter="genre:Samba"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
+                Samba
+              </button>
+              <button
+                class="btn mb-2 me-1"
+                data-filter="genre:Sertanejo"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
                 Sertanejo
               </button>
-              <button class="btn mb-2 me-1" data-filter="Trap">Trap</button>
-              <button class="btn mb-2 me-1" data-filter="Virtual Piano">
+              <button
+                class="btn mb-2 me-1"
+                data-filter="genre:Trap"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
+                Trap
+              </button>
+              <button
+                class="btn mb-2 me-1"
+                data-filter="genre:Virtual Piano"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
                 Virtual Piano
               </button>
-              <button class="btn mb-2 me-1" data-filter="YTPBR">YTPBR</button>
+              <button
+                class="btn mb-2 me-1"
+                data-filter="genre:YTPBR"
+                onclick='listing.toggleGenreFilter(this.getAttribute("data-filter"))'
+              >
+                YTPBR
+              </button>
             </div>
           </div>
 
@@ -140,10 +303,12 @@
             id="explicit-mode"
           >
             <div class="col-12">
-              <button class="btn mb-2 me-1 active" data-filter="yes">
+              <button class="btn mb-2 me-1 active" data-filter="nsfw:true">
                 Sim
               </button>
-              <button class="btn mb-2 mx-1" data-filter="no">Não</button>
+              <button class="btn mb-2 mx-1" data-filter="nsfw:false">
+                Não
+              </button>
             </div>
           </div>
         </div>
