@@ -156,6 +156,8 @@ class SongListing {
    */
   toggleGenreFilter(genre) {
     if (this.filterGenres.includes(genre)) {
+      if (this.filterGenres.length - 1 <= 0) return;
+
       this.filterGenres = this.filterGenres.filter((g) => g != genre);
     } else {
       this.filterGenres.push(genre);
@@ -190,6 +192,8 @@ class SongListing {
    */
   toggleModeFilter(mode) {
     if (this.filterModes.includes(mode)) {
+      if (this.filterModes.length - 1 <= 0) return;
+
       this.filterModes = this.filterModes.filter((g) => g != mode);
     } else {
       this.filterModes.push(mode);
