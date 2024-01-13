@@ -18,6 +18,9 @@ class Song {
   genero = null;
   nsfw = false;
 
+  /**
+   * @param {DataContent} data
+   */
   constructor(data) {
     this.id = data.id;
     this.status = data.status;
@@ -50,22 +53,31 @@ class Song {
 class SongSelector {
   /**
    * @param { Song } song
+   * @param { SongListing } listing
    */
-  constructor(song) {
+  listing;
+
+  constructor(song, listing) {
     this.song = song;
+    this.listing = listing;
   }
 
   buildHTML() {
-
     const baseDiv = document.createElement("div");
     baseDiv.classList.add("song");
     baseDiv.innerHTML = `
     <div class="hoverSideOptions">
-      <i class="fa-solid fa-download" onClick="URLUtils.handleOsuDirectFor(${this.song.id})"></i>
+      <i class="fa-solid fa-download" onClick="URLUtils.handleOsuDirectFor(${
+        this.song.id
+      })"></i>
     </div>
     <div 
       class="thumbnail"
-      onclick="preview.handlePreviewClick(${this.song.id}, '${TextUtils.encodeText(this.song.tite)}', '${TextUtils.encodeText(this.song.artist)}')">
+      onclick="listing.preview.handlePreviewClick(${
+        this.song.id
+      }, '${TextUtils.encodeText(this.song.tite)}', '${TextUtils.encodeText(
+      this.song.artist
+    )}')">
       <img
         src="https://b.ppy.sh/thumb/${this.song.id}l.jpg"
         onerror="this.onerror=null; this.src='assets/nothumb.jpg'" />
@@ -92,36 +104,35 @@ class SongSelector {
 
 class URLUtils {
   /**
-   * @param {Number} id 
+   * @param {Number} id
    */
   static handleOsuDirectFor(id) {
-    window.open(`osu://s/${id}`)
+    window.open(`osu://s/${id}`);
   }
 }
 
 class TextUtils {
-
   /**
-   * @param {String} text 
+   * @param {String} text
    * @returns string
    */
   static encodeText(text) {
-    let result = '';
+    let result = "";
 
     for (let i = 0; i < text.length; i++) {
       let charCode = text.charCodeAt(i).toString(16);
-      result += ('00' + charCode).slice(-2); // Ensure two digits for each character
+      result += ("00" + charCode).slice(-2); // Ensure two digits for each character
     }
 
     return result;
   }
 
   /**
- * @param {String} text 
- * @returns string
- */
+   * @param {String} text
+   * @returns string
+   */
   static decodeText(text) {
-    let str = '';
+    let str = "";
 
     for (let i = 0; i < text.length; i += 2) {
       let charCode = parseInt(text.substr(i, 2), 16);
@@ -292,7 +303,7 @@ class PreviewPlayer {
       this.beatmapTitle = TextUtils.decodeText(title);
       this.beatmapArtist = TextUtils.decodeText(artist);
 
-      this.stopCurrentAudio()
+      this.stopCurrentAudio();
       this.refreshAudio();
       this.refreshMetadata();
       this.audio.addEventListener("loadeddata", () => this.audio.play());
@@ -302,12 +313,12 @@ class PreviewPlayer {
   stopCurrentAudio() {
     if (this.audio) {
       this.audio.pause();
-      this.audio.src = ""
-    } 
+      this.audio.src = "";
+    }
   }
 
   toggle() {
-    document.querySelector(".previewPlayer").classList.toggle("hidden")
+    document.querySelector(".previewPlayer").classList.toggle("hidden");
   }
 
   show() {
@@ -319,13 +330,13 @@ class PreviewPlayer {
   }
 
   setPlayingIcon() {
-    document.getElementById("stateButton").classList.remove("fa-pause")
-    document.getElementById("stateButton").classList.add("fa-play")
+    document.getElementById("stateButton").classList.remove("fa-pause");
+    document.getElementById("stateButton").classList.add("fa-play");
   }
 
   setPauseIcon() {
-    document.getElementById("stateButton").classList.add("fa-pause")
-    document.getElementById("stateButton").classList.remove("fa-play")
+    document.getElementById("stateButton").classList.add("fa-pause");
+    document.getElementById("stateButton").classList.remove("fa-play");
   }
 
   refreshAudio() {
@@ -334,10 +345,15 @@ class PreviewPlayer {
   }
 
   refreshMetadata() {
-    document.getElementById("previewPlayerTitle").innerText = decodeURI(this.beatmapTitle);
-    document.getElementById("previewPlayerArtist").innerText =
-      decodeURI(this.beatmapArtist);
-    document.getElementById("previewThumbnail").style.backgroundImage = `url(https://b.ppy.sh/thumb/${this.beatmapId}l.jpg)`;
+    document.getElementById("previewPlayerTitle").innerText = decodeURI(
+      this.beatmapTitle
+    );
+    document.getElementById("previewPlayerArtist").innerText = decodeURI(
+      this.beatmapArtist
+    );
+    document.getElementById(
+      "previewThumbnail"
+    ).style.backgroundImage = `url(https://b.ppy.sh/thumb/${this.beatmapId}l.jpg)`;
 
     this.audio.ontimeupdate = () => {
       document.getElementById("seekFill").style.width = `${
@@ -346,11 +362,11 @@ class PreviewPlayer {
     };
 
     this.audio.onended = () => {
-      this.hide()
-    }
+      this.hide();
+    };
 
     this.audio.onplay = () => {
-      this.show()
-    }
+      this.show();
+    };
   }
 }
