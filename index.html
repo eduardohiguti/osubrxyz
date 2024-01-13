@@ -303,10 +303,18 @@
             id="explicit-mode"
           >
             <div class="col-12">
-              <button class="btn mb-2 me-1 active" data-filter="nsfw:true">
+              <button
+                class="btn mb-2 me-1 active"
+                data-filter="nsfw:true"
+                onclick="listing.setNSFW(true)"
+              >
                 Sim
               </button>
-              <button class="btn mb-2 mx-1" data-filter="nsfw:false">
+              <button
+                class="btn mb-2 mx-1"
+                data-filter="nsfw:false"
+                onclick="listing.setNSFW(false)"
+              >
                 Não
               </button>
             </div>
