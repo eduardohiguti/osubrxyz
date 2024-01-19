@@ -327,7 +327,7 @@ class SongListing {
     if (this.search.trim()) {
       this.filteredSongs = this.filteredSongs.filter((song) => {
         const combinedProperties =
-          `${song.artist} ${song.tite} ${song.creator} ${song.username} bpm=${song.bpm}`.toLowerCase();
+          `${song.artist} ${song.title} ${song.creator} ${song.username} ${song.tags} bpm=${song.bpm}`.toLowerCase();
         return combinedProperties.includes(this.search);
       });
     }

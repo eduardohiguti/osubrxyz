@@ -3,7 +3,7 @@ class Song {
   status = "";
   bpm = 0;
   artist = "Artist";
-  tite = "Title";
+  title = "Title";
   user_id = 0;
   creator = "Creator";
   username = "Creator";
@@ -17,6 +17,7 @@ class Song {
   thumbnail = "https://assets.ppy.sh/beatmaps/1866667/covers/list.jpg";
   genero = null;
   nsfw = false;
+  tags = "Tags";
 
   /**
    * @param {DataContent} data
@@ -26,7 +27,7 @@ class Song {
     this.status = data.status;
     this.bpm = data.bpm;
     this.artist = data.artist;
-    this.tite = data.tite;
+    this.title = data.title;
     this.user_id = data.user_id;
     this.creator = data.creator;
     this.username = data.username;
@@ -35,6 +36,7 @@ class Song {
     this.thumbnail = data.thumbnaill;
     this.genero = data.genero;
     this.nsfw = data.nsfw;
+    this.tags = data.tags;
   }
 
   getCoverURL() {
@@ -75,7 +77,7 @@ class SongSelector {
       class="thumbnail"
       onclick="listing.preview.handlePreviewClick(${
         this.song.id
-      }, '${TextUtils.encodeText(this.song.tite)}', '${TextUtils.encodeText(
+      }, '${TextUtils.encodeText(this.song.title)}', '${TextUtils.encodeText(
       this.song.artist
     )}')">
       <img
@@ -87,12 +89,13 @@ class SongSelector {
     </div>
     <a href="https://osu.ppy.sh/beatmapsets/${
       this.song.id
-    }" target="_blank" class="title">${this.song.tite}</a>
+    }" target="_blank" class="title">${this.song.title}</a>
     <div class="artist">${this.song.artist}</div>
     <a href="https://osu.ppy.sh/users/${
       this.song.user_id
     }" target="_blank" class="creator">${this.song.username}</a>
     <div class="difficulties">${this.song.diffs
+      .sort((a,b) => a.stars - b.stars).sort((a,b) => a.mode - b.mode)
       .map((difficulty) =>
         new DifficultyIcon(difficulty.mode, difficulty.stars).getSVG()
       )
@@ -282,7 +285,7 @@ class PreviewPlayer {
    */
   setBeatmap(song) {
     this.beatmapId = song.id;
-    this.beatmapTitle = song.tite;
+    this.beatmapTitle = song.title;
     this.beatmapArtist = song.artist;
   }
 
