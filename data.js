@@ -11,7 +11,7 @@
  * "status": string,
  * "bpm": number,
  * "artist": string,
- * "tite": string,
+ * "title": string,
  * "user_id": number,
  * "creator": string,
  * "username": string,
@@ -19,14 +19,15 @@
  * "last_updated": string,
  * "thumbnail": "https://assets.ppy.sh/beatmaps/1282518/covers/list.jpg?1605645072",
  * "genero": string | null,
- * "nsfw": boolean
+ * "nsfw": boolean,
+ * "tags": string
  *}[]} DataContent
  */
 
 /**
  * @type {DataContent}
  */
-const data = [
+const data =[
   {
     "id": 2116134,
     "status": "pending",
@@ -45,7 +46,7 @@ const data = [
     "last_updated": "2024-01-16T14:14:43Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2116134/covers/list.jpg?1705414496",
     "nsfw": true,
-    "genero": [],
+    "genero": ["Funk"],
     "tags": ""
   },
   {
@@ -66,7 +67,7 @@ const data = [
     "last_updated": "2024-01-14T13:18:17Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2115542/covers/list.jpg?1705238317",
     "nsfw": false,
-    "genero": [],
+    "genero": ["Rock"],
     "tags": ""
   },
   {
@@ -91,7 +92,7 @@ const data = [
     "last_updated": "2024-01-04T22:35:06Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2114598/covers/list.jpg?1704407720",
     "nsfw": false,
-    "genero": [],
+    "genero": ["Funk"],
     "tags": ""
   },
   {
@@ -112,7 +113,7 @@ const data = [
     "last_updated": "2024-01-04T17:40:24Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2114501/covers/list.jpg?1704390035",
     "nsfw": false,
-    "genero": [],
+    "genero": ["Funk"],
     "tags": "brasil brazil pt br piseiro pisadinha portuguese portugues omaninho ar10 jump piui tic tac"
   },
   {
@@ -187,7 +188,7 @@ const data = [
     "last_updated": "2024-01-13T15:26:47Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2109929/covers/list.jpg?1705159625",
     "nsfw": false,
-    "genero": [],
+    "genero": ["MPB"],
     "tags": ""
   },
   {
@@ -279,7 +280,7 @@ const data = [
     "last_updated": "2023-12-20T20:31:07Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2106604/covers/list.jpg?1705525264",
     "nsfw": false,
-    "genero": [],
+    "genero": ["Pagode"],
     "tags": "brasil mpb pagode pedriboy jump portugues brazil"
   },
   {
@@ -1420,42 +1421,6 @@ const data = [
     "tags": "brasil br portugues portuguese trap doomshop vitu gemaplys bonda 3 ef album young lixo cover"
   },
   {
-    "id": 2052372,
-    "status": "graveyard",
-    "bpm": 250,
-    "artist": "Johnny Gaviota",
-    "title": "QUIERO QK",
-    "user_id": 1263669,
-    "creator": "Ulqui",
-    "username": "Ulqui",
-    "diffs": [
-      {
-        "mode": 2,
-        "stars": 6.26
-      },
-      {
-        "mode": 2,
-        "stars": 6.26
-      },
-      {
-        "mode": 2,
-        "stars": 4.35
-      },
-      {
-        "mode": 2,
-        "stars": 4.35
-      },
-      {
-        "mode": 3,
-        "stars": 6.14
-      }
-    ],
-    "last_updated": "2023-09-02T19:16:32Z",
-    "thumbnail": "https://assets.ppy.sh/beatmaps/2052372/covers/list.jpg?1696102271",
-    "nsfw": false,
-    "tags": "spanish español espanol latino cuca myuka myucchii des9 reggaeton urban regueton"
-  },
-  {
     "id": 2049131,
     "status": "graveyard",
     "bpm": 156,
@@ -1559,26 +1524,6 @@ const data = [
     "genero": [],
     "nsfw": false,
     "tags": "pedri pedriboy jump pagode grupo revelação brasil brazil portugues portuguese"
-  },
-  {
-    "id": 2042858,
-    "status": "graveyard",
-    "bpm": 150,
-    "artist": "Lucas Inutilismo",
-    "title": "5 minutes of Billie Eilish feat. Luana",
-    "user_id": 13408566,
-    "creator": "LeaverAFK",
-    "username": "LeaverAFK",
-    "diffs": [
-      {
-        "mode": 0,
-        "stars": 4.88
-      }
-    ],
-    "last_updated": "2023-08-11T20:00:15Z",
-    "thumbnail": "https://assets.ppy.sh/beatmaps/2042858/covers/list.jpg?1694205042",
-    "nsfw": false,
-    "tags": "you should see me in a crown everything i wanted all the good girls go to hell bad guy lovely when the party’s over lost cause billie eilish"
   },
   {
     "id": 2041389,
@@ -7780,7 +7725,8 @@ const data = [
     "last_updated": "2021-07-20T15:34:48Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1492560/covers/list.jpg?1629216093",
     "nsfw": false,
-    "tags": "portuguese brazilian pop lgbt brasil"
+    "tags": "portuguese brazilian pop lgbt brasil",
+    "genero": []
   },
   {
     "id": 1483021,
@@ -15179,7 +15125,8 @@ const data = [
     "last_updated": "2016-11-22T16:48:37Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/535633/covers/list.jpg?1479833330",
     "nsfw": false,
-    "tags": "teclado lindinho 2009 lindo sam south america memes meme funk solta sa porra"
+    "tags": "teclado lindinho 2009 lindo sam south america memes meme funk solta sa porra",
+    "genero": []
   },
   {
     "id": 531562,
@@ -16187,7 +16134,7 @@ const data = [
     ],
     "last_updated": "2014-09-30T01:30:05Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/218144/covers/list.jpg?0",
-    "genero": [],
+    "genero": ["Rap", "Hip-Hop"],
     "nsfw": false,
     "tags": ""
   },
@@ -16233,7 +16180,7 @@ const data = [
     ],
     "last_updated": "2014-08-11T18:51:20Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/195844/covers/list.jpg?0",
-    "genero": [],
+    "genero": ["Pop"],
     "nsfw": false,
     "tags": ""
   },
@@ -16344,7 +16291,7 @@ const data = [
     ],
     "last_updated": "2015-02-20T19:05:06Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/141010/covers/list.jpg?0",
-    "genero": [],
+    "genero": ["YTPBR"],
     "nsfw": false,
     "tags": "sakura gumi avassaladores ytp catch you catch me marcelo lima amigoproducoes amigoproduções lust near"
   },
@@ -16365,7 +16312,7 @@ const data = [
     ],
     "last_updated": "2014-01-04T17:43:37Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/138662/covers/list.jpg?1458281859",
-    "genero": [],
+    "genero": ["Dubstep"],
     "nsfw": false,
     "tags": "tua mãe kuron nao sabe timea banana e hentou nas tags"
   },
@@ -16386,7 +16333,7 @@ const data = [
     ],
     "last_updated": "2012-12-22T16:23:53Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/69942/covers/list.jpg?1458237315",
-    "genero": [],
+    "genero": ["Dubstep"],
     "nsfw": false,
     "tags": "skrillessaladores foda avassaladores"
   },
@@ -16407,7 +16354,7 @@ const data = [
     ],
     "last_updated": "2012-12-12T22:30:28Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/68987/covers/list.jpg?0",
-    "genero": [],
+    "genero": ["Funk"],
     "nsfw": true,
     "tags": ""
   },
@@ -16436,7 +16383,7 @@ const data = [
     ],
     "last_updated": "2014-01-22T15:20:11Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/66841/covers/list.jpg?0",
-    "genero": [],
+    "genero": ["YTPBR"],
     "nsfw": false,
     "tags": "anamanaguchi my skateboard youtube el chavo chaves"
   },
@@ -16461,7 +16408,7 @@ const data = [
     ],
     "last_updated": "2013-03-19T01:18:43Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/44748/covers/list.jpg?1622053666",
-    "genero": [],
+    "genero": ["Rock", "Pop Rock"],
     "nsfw": false,
     "tags": "dinho black gold"
   },
@@ -16482,7 +16429,7 @@ const data = [
     ],
     "last_updated": "2015-02-08T01:20:40Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/40794/covers/list.jpg?1458211454",
-    "genero": [],
+    "genero": ["Funk"],
     "nsfw": false,
     "tags": ""
   }
