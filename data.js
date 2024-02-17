@@ -27,7 +27,319 @@
 /**
  * @type {DataContent}
  */
-const data =[
+const data = [
+  {
+    "id": 2135443,
+    "status": "wip",
+    "bpm": 130,
+    "artist": "DJ ARANA",
+    "title": "Amor É Mentira",
+    "user_id": 25892638,
+    "creator": "zaiyn",
+    "username": "zaiyn",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 9.02
+      }
+    ],
+    "last_updated": "2024-02-16T22:45:23Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/2135443/covers/list.jpg?1708123536",
+    "nsfw": false,
+    "tags": "brasil br funk phonk portugues dj mc rave balada eletronica garota de vermelho"
+  },
+  {
+    "id": 2135142,
+    "status": "pending",
+    "bpm": 96,
+    "artist": "Grupo Y-no",
+    "title": "Querido meu amor",
+    "user_id": 13776127,
+    "creator": "zerokt",
+    "username": "zerokt",
+    "diffs": [
+      {
+        "mode": 2,
+        "stars": 4.32
+      }
+    ],
+    "last_updated": "2024-02-13T14:24:24Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/2135142/covers/list.jpg?1707834277",
+    "nsfw": false,
+    "tags": "japanese japan brazil brasil brasileiro brazillian pt-br ptbr du5t fayew skill issue lol dust idust idu5t faz me moer ai gatinha me da uma chance pra este lixo maravilhoso eu sou galinha quis te olhar mulhar nua pop portuguese samba pagode pagodinho"
+  },
+  {
+    "id": 2134447,
+    "status": "pending",
+    "bpm": 157,
+    "artist": "Dj Menu",
+    "title": "Cade o Cu de Painho",
+    "user_id": 17728999,
+    "creator": "Serasona",
+    "username": "Serasona",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 5.37
+      }
+    ],
+    "last_updated": "2024-02-12T03:21:51Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/2134447/covers/list.jpg?1707708125",
+    "nsfw": true,
+    "tags": "brasil brazil piseiro forro portugues meme"
+  },
+  {
+    "id": 2133618,
+    "status": "wip",
+    "bpm": 124.05,
+    "artist": "Alok, Vanessa da Mata ft. Cat Dealers",
+    "title": "Boa Sorte",
+    "user_id": 8332321,
+    "creator": "-Smine-",
+    "username": "-Smine-",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.46
+      }
+    ],
+    "last_updated": "2024-02-10T19:57:18Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/2133618/covers/list.jpg?1707595048",
+    "nsfw": false,
+    "tags": ""
+  },
+  {
+    "id": 2133180,
+    "status": "wip",
+    "bpm": 168,
+    "artist": "Cássia Eller",
+    "title": "Meu Mundo Ficaria Completo (Com Você)",
+    "user_id": 1565622,
+    "creator": "cadR",
+    "username": "cadR",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.89
+      },
+      {
+        "mode": 0,
+        "stars": 4.73
+      }
+    ],
+    "last_updated": "2024-02-15T01:58:52Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/2133180/covers/list.jpg?1707962355",
+    "nsfw": false,
+    "tags": "nando reis cassia eller album love letter album"
+  },
+  {
+    "id": 2132197,
+    "status": "wip",
+    "bpm": 144.25,
+    "artist": "Marisa Monte",
+    "title": "Para Ver As Meninas",
+    "user_id": 1565622,
+    "creator": "cadR",
+    "username": "cadR",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 3.16
+      }
+    ],
+    "last_updated": "2024-02-17T04:18:22Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/2132197/covers/list.jpg?1708143513",
+    "nsfw": false,
+    "tags": ""
+  },
+  {
+    "id": 2128767,
+    "status": "wip",
+    "bpm": 200,
+    "artist": "Jorge & Mateus",
+    "title": "Ou Some Ou Soma",
+    "user_id": 25892638,
+    "creator": "zaiyn",
+    "username": "zaiyn",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 6.63
+      }
+    ],
+    "last_updated": "2024-02-01T06:14:49Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/2128767/covers/list.jpg?1706768104",
+    "nsfw": false,
+    "tags": "brasil br portuguese portugues sertanejo country jorge e matheus henrique e juliano universitario pagode brasileiro"
+  },
+  {
+    "id": 2127812,
+    "status": "wip",
+    "bpm": 127.99,
+    "artist": "Clarice Falcão",
+    "title": "Eu me lembro",
+    "user_id": 1565622,
+    "creator": "cadR",
+    "username": "cadR",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 10.62
+      }
+    ],
+    "last_updated": "2024-02-04T04:11:07Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/2127812/covers/list.jpg?1707019882",
+    "nsfw": false,
+    "tags": ""
+  },
+  {
+    "id": 2127775,
+    "status": "wip",
+    "bpm": 95,
+    "artist": "KarnyX no Beat Feat. jeskanln",
+    "title": "Forrozinho do Titanic",
+    "user_id": 17728999,
+    "creator": "Serasona",
+    "username": "Serasona",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 5.63
+      },
+      {
+        "mode": 0,
+        "stars": 6.66
+      }
+    ],
+    "last_updated": "2024-01-30T23:06:17Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/2127775/covers/list.jpg?1706655994",
+    "nsfw": false,
+    "tags": "brasil brazil forro portugues piseiro"
+  },
+  {
+    "id": 2127037,
+    "status": "wip",
+    "bpm": 150,
+    "artist": "Seu joca",
+    "title": "Aumenta o Som Marcelo",
+    "user_id": 3139168,
+    "creator": "Hawk225",
+    "username": "Hawk225",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 8.24
+      }
+    ],
+    "last_updated": "2024-01-28T21:28:33Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/2127037/covers/list.jpg?1706477320",
+    "nsfw": false,
+    "tags": ""
+  },
+  {
+    "id": 2124273,
+    "status": "pending",
+    "bpm": 150,
+    "artist": "Kevinho",
+    "title": "Uma Nora pra Cada Dia",
+    "user_id": 15879318,
+    "creator": "Otsu-",
+    "username": "Otsu-",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 3.97
+      }
+    ],
+    "last_updated": "2024-01-23T20:12:14Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/2124273/covers/list.jpg?1706040745",
+    "nsfw": false,
+    "tags": "funk portuguese português herokingwnl brazil brasil muichiro mandrake"
+  },
+  {
+    "id": 2123980,
+    "status": "pending",
+    "bpm": 145,
+    "artist": "MYRES & RAMEMES & TONIAS",
+    "title": "MAÇARICO",
+    "user_id": 15821708,
+    "creator": "Sebola",
+    "username": "Sebola",
+    "diffs": [
+      {
+        "mode": 1,
+        "stars": 6.89
+      }
+    ],
+    "last_updated": "2024-01-23T05:02:45Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/2123980/covers/list.jpg?1705986177",
+    "nsfw": true,
+    "tags": ""
+  },
+  {
+    "id": 2123848,
+    "status": "pending",
+    "bpm": 155,
+    "artist": "Pabllo Vittar",
+    "title": "K.O",
+    "user_id": 17728999,
+    "creator": "Serasona",
+    "username": "Serasona",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 5.2
+      }
+    ],
+    "last_updated": "2024-01-23T22:50:30Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/2123848/covers/list.jpg?1706050242",
+    "nsfw": false,
+    "tags": "brasil brazil arrocha portugues jump love"
+  },
+  {
+    "id": 2120457,
+    "status": "wip",
+    "bpm": 92,
+    "artist": "Melim",
+    "title": "Meu Abrigo",
+    "user_id": 12833739,
+    "creator": "freestyler",
+    "username": "freestyler",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 3.97
+      },
+      {
+        "mode": 0,
+        "stars": 2.63
+      }
+    ],
+    "last_updated": "2024-02-06T01:24:03Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/2120457/covers/list.jpg?1707182658",
+    "nsfw": false,
+    "tags": "howrengar portuguese brasil brazil portugues reggae fusion pop other mpb"
+  },
+  {
+    "id": 2118740,
+    "status": "graveyard",
+    "bpm": 160,
+    "artist": "Cain",
+    "title": "Ela me chama de lindo (Duolingo)",
+    "user_id": 22885393,
+    "creator": "MuriLLu",
+    "username": "MuriLLu",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.73
+      }
+    ],
+    "last_updated": "2024-01-15T03:27:30Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/2118740/covers/list.jpg?1707708666",
+    "nsfw": false,
+    "tags": "só porque eu falo ingles inglês duo duolingo português portuguese portugese portugues brasil brazil ptbr pt br pt-br"
+  },
   {
     "id": 2116134,
     "status": "pending",
@@ -46,7 +358,9 @@ const data =[
     "last_updated": "2024-01-16T14:14:43Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2116134/covers/list.jpg?1705414496",
     "nsfw": true,
-    "genero": ["Funk"],
+    "genero": [
+      "Funk"
+    ],
     "tags": ""
   },
   {
@@ -67,8 +381,34 @@ const data =[
     "last_updated": "2024-01-14T13:18:17Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2115542/covers/list.jpg?1705238317",
     "nsfw": false,
-    "genero": ["Rock"],
+    "genero": [
+      "Rock"
+    ],
     "tags": ""
+  },
+  {
+    "id": 2114697,
+    "status": "graveyard",
+    "bpm": 81,
+    "artist": "Melim",
+    "title": "Ouvi Dizer",
+    "user_id": 14904105,
+    "creator": "kleber veneno",
+    "username": "kleber veneno",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.31
+      },
+      {
+        "mode": 0,
+        "stars": 1.23
+      }
+    ],
+    "last_updated": "2024-01-18T22:16:32Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/2114697/covers/list.jpg?1708036225",
+    "nsfw": false,
+    "tags": "brasil pop portugues brazil mpb romantic"
   },
   {
     "id": 2114598,
@@ -92,7 +432,9 @@ const data =[
     "last_updated": "2024-01-04T22:35:06Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2114598/covers/list.jpg?1704407720",
     "nsfw": false,
-    "genero": ["Funk"],
+    "genero": [
+      "Funk"
+    ],
     "tags": ""
   },
   {
@@ -113,7 +455,9 @@ const data =[
     "last_updated": "2024-01-04T17:40:24Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2114501/covers/list.jpg?1704390035",
     "nsfw": false,
-    "genero": ["Funk"],
+    "genero": [
+      "Funk"
+    ],
     "tags": "brasil brazil pt br piseiro pisadinha portuguese portugues omaninho ar10 jump piui tic tac"
   },
   {
@@ -188,7 +532,9 @@ const data =[
     "last_updated": "2024-01-13T15:26:47Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2109929/covers/list.jpg?1705159625",
     "nsfw": false,
-    "genero": ["MPB"],
+    "genero": [
+      "MPB"
+    ],
     "tags": ""
   },
   {
@@ -280,7 +626,9 @@ const data =[
     "last_updated": "2023-12-20T20:31:07Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2106604/covers/list.jpg?1705525264",
     "nsfw": false,
-    "genero": ["Pagode"],
+    "genero": [
+      "Pagode"
+    ],
     "tags": "brasil mpb pagode pedriboy jump portugues brazil"
   },
   {
@@ -513,6 +861,26 @@ const data =[
     "tags": "brasil sertanejo portugues brazil sofrencia namoro termino"
   },
   {
+    "id": 2098018,
+    "status": "graveyard",
+    "bpm": 150,
+    "artist": "DJ Anderson França/MC Ysa",
+    "title": "Eu Vou pro Baile da Colômbia 150 Bpm",
+    "user_id": 14904105,
+    "creator": "kleber veneno",
+    "username": "kleber veneno",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.91
+      }
+    ],
+    "last_updated": "2023-12-10T02:04:28Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/2098018/covers/list.jpg?1704594617",
+    "nsfw": false,
+    "tags": "brasil brazil funk carioca portugues"
+  },
+  {
     "id": 2096970,
     "status": "graveyard",
     "bpm": 190,
@@ -700,6 +1068,26 @@ const data =[
     "nsfw": false,
     "genero": [],
     "tags": "brasil portugues pagode br grupo envolvencia"
+  },
+  {
+    "id": 2089821,
+    "status": "graveyard",
+    "bpm": 130,
+    "artist": "MC Guto VGS, MC Pe Original, DJ Big Original",
+    "title": "Automotivo da Reciprocidade",
+    "user_id": 15879318,
+    "creator": "Otsu-",
+    "username": "Otsu-",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 3.95
+      }
+    ],
+    "last_updated": "2023-11-15T17:46:49Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/2089821/covers/list.jpg?1702490482",
+    "nsfw": true,
+    "tags": "funk electronic eletronica portugues brasil brazil pt br tik tok tiktok dancinha pesado mc mc brasileira brasileiras brasileiro brasileiros amor love +18 explicit explicito"
   },
   {
     "id": 2086646,
@@ -1337,6 +1725,38 @@ const data =[
     "tags": "pudimp hatsune miku electronic eletronica portuguese portugese portugues brasil brazil vai derrapar murillu otsu- zaiyn [ defalt ]"
   },
   {
+    "id": 2056072,
+    "status": "graveyard",
+    "bpm": 135,
+    "artist": "Zé Felipe, Ana Castela e Luan Pereira LP",
+    "title": "Roça Em Mim",
+    "user_id": 9731062,
+    "creator": "-Flashlight-",
+    "username": "-Flashlight-",
+    "diffs": [
+      {
+        "mode": 1,
+        "stars": 3.68
+      },
+      {
+        "mode": 1,
+        "stars": 2.19
+      },
+      {
+        "mode": 1,
+        "stars": 1.45
+      },
+      {
+        "mode": 1,
+        "stars": 2.95
+      }
+    ],
+    "last_updated": "2024-01-15T02:45:43Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/2056072/covers/list.jpg?1707706857",
+    "nsfw": true,
+    "tags": "portuguese português brazil brasil sertanejo"
+  },
+  {
     "id": 2054534,
     "status": "graveyard",
     "bpm": 136,
@@ -1505,6 +1925,26 @@ const data =[
     "tags": "brasil brazil portugues portuguese br brazilian sertanejo antigo classico universitario chora me liga implora meu beijo de novo implora pelo meu amor"
   },
   {
+    "id": 2044130,
+    "status": "graveyard",
+    "bpm": 135,
+    "artist": "7 Minutoz",
+    "title": "Rap do Tobirama (Naruto) - SEGUNDO HOKAGE | NERD HITS",
+    "user_id": 15879318,
+    "creator": "Otsu-",
+    "username": "Otsu-",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.18
+      }
+    ],
+    "last_updated": "2023-08-13T22:40:46Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/2044130/covers/list.jpg?1694386869",
+    "nsfw": false,
+    "tags": "rap hip hop hip-hop naruto portuguese portugues"
+  },
+  {
     "id": 2043509,
     "status": "graveyard",
     "bpm": 200,
@@ -1524,6 +1964,30 @@ const data =[
     "genero": [],
     "nsfw": false,
     "tags": "pedri pedriboy jump pagode grupo revelação brasil brazil portugues portuguese"
+  },
+  {
+    "id": 2041398,
+    "status": "graveyard",
+    "bpm": 128,
+    "artist": "Nhato",
+    "title": "Magic",
+    "user_id": 5066305,
+    "creator": "ERA Imperial",
+    "username": "ERA Imperial",
+    "diffs": [
+      {
+        "mode": 3,
+        "stars": 4.06
+      },
+      {
+        "mode": 3,
+        "stars": 4.06
+      }
+    ],
+    "last_updated": "2023-08-09T01:26:25Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/2041398/covers/list.jpg?1693963853",
+    "nsfw": false,
+    "tags": "voodooism cysmix kusemono records"
   },
   {
     "id": 2041389,
@@ -1766,6 +2230,58 @@ const data =[
     "thumbnail": "https://assets.ppy.sh/beatmaps/2028886/covers/list.jpg?1692109833",
     "nsfw": false,
     "tags": "phodas \"c\""
+  },
+  {
+    "id": 2024915,
+    "status": "ranked",
+    "bpm": 130,
+    "artist": "Dennis e Kevin O Chris",
+    "title": "TÁ OK",
+    "user_id": 9731062,
+    "creator": "-Flashlight-",
+    "username": "-Flashlight-",
+    "diffs": [
+      {
+        "mode": 1,
+        "stars": 2.96
+      },
+      {
+        "mode": 1,
+        "stars": 1.32
+      },
+      {
+        "mode": 1,
+        "stars": 1.96
+      },
+      {
+        "mode": 1,
+        "stars": 3.14
+      }
+    ],
+    "last_updated": "2023-07-29T00:33:09Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/2024915/covers/list.jpg?1690590805",
+    "nsfw": true,
+    "tags": "funk carioca brazilian brasileiro brazil brasil portuguese português mc dj"
+  },
+  {
+    "id": 2024354,
+    "status": "graveyard",
+    "bpm": 156.15,
+    "artist": "FP do Trem Bala/Kerol",
+    "title": "Verão",
+    "user_id": 14904105,
+    "creator": "kleber veneno",
+    "username": "kleber veneno",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.33
+      }
+    ],
+    "last_updated": "2023-07-11T00:11:52Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/2024354/covers/list.jpg?1691454645",
+    "nsfw": true,
+    "tags": "brasil 150 bpm funk"
   },
   {
     "id": 2024221,
@@ -2146,6 +2662,38 @@ const data =[
     "tags": "seu jorge burguesinha pagode funk sertanejo brasil br portugues"
   },
   {
+    "id": 1985283,
+    "status": "graveyard",
+    "bpm": 90,
+    "artist": "Restart",
+    "title": "Menina Estranha",
+    "user_id": 9731062,
+    "creator": "-Flashlight-",
+    "username": "-Flashlight-",
+    "diffs": [
+      {
+        "mode": 1,
+        "stars": 1.83
+      },
+      {
+        "mode": 1,
+        "stars": 1.05
+      },
+      {
+        "mode": 1,
+        "stars": 2.51
+      },
+      {
+        "mode": 1,
+        "stars": 2.72
+      }
+    ],
+    "last_updated": "2023-05-01T22:53:07Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1985283/covers/list.jpg?1685401247",
+    "nsfw": false,
+    "tags": "pop rock portuguese português geracao geração z"
+  },
+  {
     "id": 1983105,
     "status": "graveyard",
     "bpm": 128,
@@ -2221,6 +2769,46 @@ const data =[
     "tags": "welcome to the mato tiktok brasil brasileiro portugues sertanejo grave universitario funk"
   },
   {
+    "id": 1977036,
+    "status": "graveyard",
+    "bpm": 114,
+    "artist": "Xuxa",
+    "title": "Cabeça, Ombro, Joelho e Pé",
+    "user_id": 15879318,
+    "creator": "xXOtsutsukiXx",
+    "username": "Otsu-",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.16
+      }
+    ],
+    "last_updated": "2023-04-16T23:23:55Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1977036/covers/list.jpg?1684107167",
+    "nsfw": false,
+    "tags": ""
+  },
+  {
+    "id": 1976927,
+    "status": "graveyard",
+    "bpm": 107.25,
+    "artist": "NXZero",
+    "title": "Cedo ou Tarde",
+    "user_id": 8784535,
+    "creator": "Asenkyo",
+    "username": "Asenkyo",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 5.02
+      }
+    ],
+    "last_updated": "2023-04-16T20:39:23Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1976927/covers/list.jpg?1684098078",
+    "nsfw": false,
+    "tags": "brazil rock emo kento matsuura"
+  },
+  {
     "id": 1976206,
     "status": "graveyard",
     "bpm": 190,
@@ -2265,6 +2853,26 @@ const data =[
     "tags": "arrocha sofrencia portuguese brasil brazil"
   },
   {
+    "id": 1975083,
+    "status": "graveyard",
+    "bpm": 99,
+    "artist": "TETO",
+    "title": "Minha vida e um filme",
+    "user_id": 11619364,
+    "creator": "SouGustaa",
+    "username": "SouGustaa",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 2.81
+      }
+    ],
+    "last_updated": "2023-04-14T03:23:04Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1975083/covers/list.jpg?1683862293",
+    "nsfw": false,
+    "tags": "brasil brazil portuguese br portugues"
+  },
+  {
     "id": 1975065,
     "status": "graveyard",
     "bpm": 190,
@@ -2284,6 +2892,66 @@ const data =[
     "genero": [],
     "nsfw": false,
     "tags": "seishun complex português portuguese portugese portugues brasil brazil ptbr pt br pt-br pop jam electronic eletronica anime op opening abertura"
+  },
+  {
+    "id": 1972720,
+    "status": "graveyard",
+    "bpm": 181.8,
+    "artist": "Adoniran Barbosa",
+    "title": "O trem das onze",
+    "user_id": 15879318,
+    "creator": "xXOtsutsukiXx",
+    "username": "Otsu-",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.33
+      }
+    ],
+    "last_updated": "2023-04-10T01:00:31Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1972720/covers/list.jpg?1683509504",
+    "nsfw": false,
+    "tags": "pagode samba churrasco brazil brasil portuguese portugues o trem das onze adoniran barbosa"
+  },
+  {
+    "id": 1970566,
+    "status": "graveyard",
+    "bpm": 170,
+    "artist": "MC xupeta",
+    "title": "BOTA E APERTA",
+    "user_id": 15879318,
+    "creator": "xXOtsutsukiXx",
+    "username": "Otsu-",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.86
+      }
+    ],
+    "last_updated": "2023-04-07T03:38:39Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1970566/covers/list.jpg?1683259310",
+    "nsfw": true,
+    "tags": "portuguese portugues brasil brazil brazilian brasileira mc xupeta bota e aperta br brega funk shit music musica forro ze droguinha juliet shitpost butico"
+  },
+  {
+    "id": 1969893,
+    "status": "graveyard",
+    "bpm": 129,
+    "artist": "Os Caçadores",
+    "title": "Dona Gigi",
+    "user_id": 14904105,
+    "creator": "kleber veneno",
+    "username": "kleber veneno",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.47
+      }
+    ],
+    "last_updated": "2023-04-05T21:11:40Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1969893/covers/list.jpg?1683149473",
+    "nsfw": false,
+    "tags": ""
   },
   {
     "id": 1967311,
@@ -2421,6 +3089,38 @@ const data =[
     "nsfw": false,
     "genero": [],
     "tags": "brasil portugues romance sertanejo arrocha forro pagode samba funk e com ela que estou voce vai ficar em mim cristiano araujo"
+  },
+  {
+    "id": 1958298,
+    "status": "qualified",
+    "bpm": 160,
+    "artist": "Erix",
+    "title": "Promessas (prod. Okami)",
+    "user_id": 9731062,
+    "creator": "-Flashlight-",
+    "username": "-Flashlight-",
+    "diffs": [
+      {
+        "mode": 1,
+        "stars": 4
+      },
+      {
+        "mode": 1,
+        "stars": 2.4
+      },
+      {
+        "mode": 1,
+        "stars": 1.53
+      },
+      {
+        "mode": 1,
+        "stars": 3.43
+      }
+    ],
+    "last_updated": "2024-02-06T03:14:44Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1958298/covers/list.jpg?1707189302",
+    "nsfw": false,
+    "tags": "pop hyperpop portuguese português brazilian hyper hip-hop hiphop hip hop glitch promises production produced by"
   },
   {
     "id": 1958019,
@@ -2612,6 +3312,30 @@ const data =[
     "genero": [],
     "nsfw": false,
     "tags": "funk brazil mandela mandelao pedri"
+  },
+  {
+    "id": 1946237,
+    "status": "graveyard",
+    "bpm": 115,
+    "artist": "Raimundos",
+    "title": "A Mais Pedida",
+    "user_id": 18039030,
+    "creator": "Tramon",
+    "username": "Tramon",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.73
+      },
+      {
+        "mode": 0,
+        "stars": 5.85
+      }
+    ],
+    "last_updated": "2023-02-24T20:07:15Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1946237/covers/list.jpg?1679689855",
+    "nsfw": false,
+    "tags": "portuguese rock brabo"
   },
   {
     "id": 1946192,
@@ -2828,6 +3552,30 @@ const data =[
     "tags": "brasil forro piseiro pisadinha portugues"
   },
   {
+    "id": 1927036,
+    "status": "graveyard",
+    "bpm": 150,
+    "artist": "MC DU BLACK",
+    "title": "GAIOLA É O TROCO (Cut Ver.)",
+    "user_id": 14904105,
+    "creator": "kleber veneno",
+    "username": "kleber veneno",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 5.19
+      },
+      {
+        "mode": 0,
+        "stars": 4.84
+      }
+    ],
+    "last_updated": "2023-02-08T02:03:22Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1927036/covers/list.jpg?1678242627",
+    "nsfw": true,
+    "tags": "brasil brazilian portuguese funk"
+  },
+  {
     "id": 1926353,
     "status": "graveyard",
     "bpm": 118,
@@ -2870,6 +3618,34 @@ const data =[
     "tags": "nijika brazil brasil forro grupo envolvencia samba ta rocheda sertanejo"
   },
   {
+    "id": 1925599,
+    "status": "graveyard",
+    "bpm": 144,
+    "artist": "CPM 22",
+    "title": "Dias Atrás",
+    "user_id": 9731062,
+    "creator": "-Flashlight-",
+    "username": "-Flashlight-",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.13
+      },
+      {
+        "mode": 0,
+        "stars": 3.7
+      },
+      {
+        "mode": 0,
+        "stars": 3.46
+      }
+    ],
+    "last_updated": "2023-02-06T20:10:23Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1925599/covers/list.jpg?1678134639",
+    "nsfw": false,
+    "tags": "chegou a hora de recomeçar recomecar melodic hardcore punk rock portuguese português"
+  },
+  {
     "id": 1924988,
     "status": "graveyard",
     "bpm": 125,
@@ -2889,6 +3665,46 @@ const data =[
     "nsfw": false,
     "genero": [],
     "tags": "brasil brazil forro piseiro pisadinha buteco portugues tiktok"
+  },
+  {
+    "id": 1922516,
+    "status": "graveyard",
+    "bpm": 150,
+    "artist": "Puterrier",
+    "title": "Putaria 2000",
+    "user_id": 16808089,
+    "creator": "Sugus1",
+    "username": "Outright",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 6.83
+      }
+    ],
+    "last_updated": "2023-01-14T19:27:34Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1922516/covers/list.jpg?1676143889",
+    "nsfw": true,
+    "tags": ""
+  },
+  {
+    "id": 1922503,
+    "status": "graveyard",
+    "bpm": 170,
+    "artist": "Iron Master",
+    "title": "Rap do Salsicha (Instinto Superior) ATRASARAM MEU LANCHE",
+    "user_id": 15879318,
+    "creator": "xXOtsutsukiXx",
+    "username": "Otsu-",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 6.59
+      }
+    ],
+    "last_updated": "2023-01-14T19:14:08Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1922503/covers/list.jpg?1676143923",
+    "nsfw": false,
+    "tags": "portugues portuguese rock metal raps rap do salsicha instinto superior iron master brasil brazil brasilian music musicas brasileiras musica brasileira collab keikin kerlack suigintou stream map 170 bpm"
   },
   {
     "id": 1922051,
@@ -3129,6 +3945,26 @@ const data =[
     "tags": "bolinho claudia portuguese brazil brasil pop male vocal"
   },
   {
+    "id": 1904339,
+    "status": "wip",
+    "bpm": 78.68,
+    "artist": "Racionais Mc's",
+    "title": "Negro Drama",
+    "user_id": 15879318,
+    "creator": "Otsu-",
+    "username": "Otsu-",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.55
+      }
+    ],
+    "last_updated": "2024-02-12T01:54:10Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1904339/covers/list.jpg?1707702868",
+    "nsfw": true,
+    "tags": "portugues portuguese rap hip hop hip-hop brasil brazil brazilian brasileiro racionais nego drama negro favela comunidade periferia raiz antigo old songs"
+  },
+  {
     "id": 1903355,
     "genero": [
       "Emo"
@@ -3237,6 +4073,46 @@ const data =[
     "tags": "funk brasil old portugues pop rap balada festa termino namoro yulla sonasera sona sera"
   },
   {
+    "id": 1901122,
+    "status": "graveyard",
+    "bpm": 150,
+    "artist": "Mbappe, Paquetá & Ronaldinho feat. Sr Nescau",
+    "title": "ELA VAI SENTAR PRO MBAPPÉ",
+    "user_id": 14772488,
+    "creator": "Jhown",
+    "username": "Jhown",
+    "diffs": [
+      {
+        "mode": 3,
+        "stars": 6.49
+      }
+    ],
+    "last_updated": "2022-12-11T04:29:10Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1901122/covers/list.jpg?1673152303",
+    "nsfw": false,
+    "tags": "brasil ronaldinho mbappe paqueta jack quad stamina anchor jhown"
+  },
+  {
+    "id": 1900246,
+    "status": "graveyard",
+    "bpm": 160,
+    "artist": "WIU",
+    "title": "Coração de Gelo",
+    "user_id": 11619364,
+    "creator": "SouGustaa",
+    "username": "SouGustaa",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 3.91
+      }
+    ],
+    "last_updated": "2022-12-09T19:05:50Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1900246/covers/list.jpg?1673033484",
+    "nsfw": false,
+    "tags": "brasil brazil trap 30praum br portuguese"
+  },
+  {
     "id": 1899246,
     "genero": [
       "Pagode"
@@ -3329,6 +4205,34 @@ const data =[
     "genero": [],
     "nsfw": false,
     "tags": ""
+  },
+  {
+    "id": 1893321,
+    "status": "graveyard",
+    "bpm": 130,
+    "artist": "MC Mazzie",
+    "title": "Ele Te Bota Soca Soca Feat. MC RD (DJ Wizard e DJ NpcSize)",
+    "user_id": 15879318,
+    "creator": "xXOtsutsukiXx",
+    "username": "Otsu-",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 6.25
+      },
+      {
+        "mode": 0,
+        "stars": 5.73
+      },
+      {
+        "mode": 0,
+        "stars": 5.62
+      }
+    ],
+    "last_updated": "2022-11-29T22:35:35Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1893321/covers/list.jpg?1672182031",
+    "nsfw": true,
+    "tags": "funk portugues portuguese pesadao favela bailao mc mazzie ele te bota soca soca rd wizard keikin kerlack collab short brasil brasileira pancadao brazil low bpm funk proibidao gaiola baile nova subway surfers edit video brasilian"
   },
   {
     "id": 1892028,
@@ -3437,6 +4341,26 @@ const data =[
     "tags": "brazilian funk brasileiro português portugese"
   },
   {
+    "id": 1884775,
+    "status": "graveyard",
+    "bpm": 221,
+    "artist": "DJ RAMON SUCESSO",
+    "title": "Se afoga no bolha piranha kkk",
+    "user_id": 3196091,
+    "creator": "Genjuro",
+    "username": "Genjuro",
+    "diffs": [
+      {
+        "mode": 1,
+        "stars": 5.85
+      }
+    ],
+    "last_updated": "2022-11-13T15:38:03Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1884775/covers/list.jpg?1670774531",
+    "nsfw": false,
+    "tags": ""
+  },
+  {
     "id": 1882568,
     "genero": [
       "Indie"
@@ -3512,6 +4436,34 @@ const data =[
     "nsfw": false,
     "genero": [],
     "tags": "brasil sofrencia sad cachaca pinga bebida cerjeva separar amor love crush namorada sofrimento dor chifre corno depressao danada sertanejo"
+  },
+  {
+    "id": 1878508,
+    "status": "graveyard",
+    "bpm": 177.6,
+    "artist": "Dj ramon",
+    "title": "Melhores feitos do dj ramon",
+    "user_id": 16808089,
+    "creator": "Sugus1",
+    "username": "Outright",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 6.4
+      },
+      {
+        "mode": 0,
+        "stars": 6.27
+      },
+      {
+        "mode": 0,
+        "stars": 5.46
+      }
+    ],
+    "last_updated": "2022-11-08T01:13:04Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1878508/covers/list.jpg?1670290232",
+    "nsfw": false,
+    "tags": ""
   },
   {
     "id": 1875410,
@@ -3599,6 +4551,46 @@ const data =[
     "tags": "yung lixo gemaplys vito meme male vocal trap pop hip hop brasileiro brazilian portuguese bonda_3 felipe ef the kill thirty seconds to mars quiet things that no one ever know brand new helena my chemical romance"
   },
   {
+    "id": 1869220,
+    "status": "graveyard",
+    "bpm": 183,
+    "artist": "MC Cabelinho",
+    "title": "X1",
+    "user_id": 11619364,
+    "creator": "SouGustaa",
+    "username": "SouGustaa",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 5.56
+      }
+    ],
+    "last_updated": "2022-11-07T17:59:08Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1869220/covers/list.jpg?1670263253",
+    "nsfw": false,
+    "tags": "brasil brazil cabelinho portuguese portugues"
+  },
+  {
+    "id": 1868738,
+    "status": "graveyard",
+    "bpm": 179.55,
+    "artist": "Jurandyr",
+    "title": "Brega do Chico Preto",
+    "user_id": 8784535,
+    "creator": "Asenkyo",
+    "username": "Asenkyo",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.92
+      }
+    ],
+    "last_updated": "2023-09-10T15:38:55Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1868738/covers/list.jpg?1696780834",
+    "nsfw": false,
+    "tags": "musica do pará brazil brasil"
+  },
+  {
     "id": 1866667,
     "status": "graveyard",
     "bpm": 130,
@@ -3684,6 +4676,38 @@ const data =[
     "nsfw": false,
     "genero": [],
     "tags": "brasil onibus webnamoro forro piseiro marcopolo galaxy serasona"
+  },
+  {
+    "id": 1866269,
+    "status": "graveyard",
+    "bpm": 155.15,
+    "artist": "Rebeldes",
+    "title": "Rebelde para Sempre (TV Size)",
+    "user_id": 9731062,
+    "creator": "-Flashlight-",
+    "username": "-Flashlight-",
+    "diffs": [
+      {
+        "mode": 1,
+        "stars": 2.37
+      },
+      {
+        "mode": 1,
+        "stars": 1.59
+      },
+      {
+        "mode": 1,
+        "stars": 3.21
+      },
+      {
+        "mode": 1,
+        "stars": 3.93
+      }
+    ],
+    "last_updated": "2022-10-14T23:17:02Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1866269/covers/list.jpg?1668209444",
+    "nsfw": false,
+    "tags": "portuguese portugues português rock brasil recordtv intro opening abertura novela soap opera"
   },
   {
     "id": 1864716,
@@ -3878,6 +4902,26 @@ const data =[
     "tags": "anitta jhama quanto eu to bolado ela quer beijar na boca bang! bang remix eletronica electronic pop português portuguese portugese portugues brasil brazil sped up speed"
   },
   {
+    "id": 1853359,
+    "status": "graveyard",
+    "bpm": 136.5,
+    "artist": "Lou Garcia",
+    "title": "Nao Fosse Tao Tarde",
+    "user_id": 15879318,
+    "creator": "xXOtsutsukiXx",
+    "username": "Otsu-",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 3.83
+      }
+    ],
+    "last_updated": "2022-09-22T23:48:34Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1853359/covers/list.jpg?1666310424",
+    "nsfw": false,
+    "tags": "portugues brasil brazil pop indie lou garcia não fosse tão tarde musicas brasileiras lenta relaxing low bpm short memorias lembranças amor saudade flow br"
+  },
+  {
     "id": 1853150,
     "genero": [
       "Rap"
@@ -4054,6 +5098,46 @@ const data =[
     "tags": "piseiro joaogomes brasil eu tenho a senha"
   },
   {
+    "id": 1846068,
+    "status": "graveyard",
+    "bpm": 135,
+    "artist": "Luan Santana",
+    "title": "Meteoro Da Paixao",
+    "user_id": 15879318,
+    "creator": "xXOtsutsukiXx",
+    "username": "Otsu-",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.15
+      }
+    ],
+    "last_updated": "2022-09-11T15:23:48Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1846068/covers/list.jpg?1665329468",
+    "nsfw": false,
+    "tags": "portugues do brasil brazil musicas em br brasileiras sertanejo luan santana meteoro da paixao facil show explosão de sentimentos amor e paixão xxotsutsukixx mapas"
+  },
+  {
+    "id": 1844502,
+    "status": "graveyard",
+    "bpm": 98.41,
+    "artist": "Gabriel o Pensador",
+    "title": "Cachimbo da Paz",
+    "user_id": 9731062,
+    "creator": "-Flashlight-",
+    "username": "-Flashlight-",
+    "diffs": [
+      {
+        "mode": 1,
+        "stars": 3.41
+      }
+    ],
+    "last_updated": "2022-09-08T23:33:30Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1844502/covers/list.jpg?1665100838",
+    "nsfw": false,
+    "tags": "quebra-cabeça quebra cabeça quebra-cabeca quebra cabeca lulu santos brazil portuguese português rap hip-hop hip hop"
+  },
+  {
     "id": 1842855,
     "genero": [
       "Rap"
@@ -4206,6 +5290,38 @@ const data =[
     "nsfw": false,
     "genero": [],
     "tags": "mc melody funk falsete brasil meme jump tv size"
+  },
+  {
+    "id": 1835180,
+    "status": "graveyard",
+    "bpm": 180,
+    "artist": "Vadeco",
+    "title": "Quem Sou Eu?",
+    "user_id": 9731062,
+    "creator": "-Flashlight-",
+    "username": "-Flashlight-",
+    "diffs": [
+      {
+        "mode": 1,
+        "stars": 4.39
+      },
+      {
+        "mode": 1,
+        "stars": 2.65
+      },
+      {
+        "mode": 1,
+        "stars": 1.51
+      },
+      {
+        "mode": 1,
+        "stars": 3.58
+      }
+    ],
+    "last_updated": "2022-08-26T02:43:39Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1835180/covers/list.jpg?1663902088",
+    "nsfw": false,
+    "tags": "valdemar schettini paulo munhoz brasil brazil brazilian português portugues portuguese furry rock anime opening op abertura tv size tecnokena"
   },
   {
     "id": 1834452,
@@ -4447,6 +5563,38 @@ const data =[
     "thumbnail": "https://assets.ppy.sh/beatmaps/1824666/covers/list.jpg?1662413503",
     "nsfw": false,
     "tags": "bonda trap pop meme gemaplys launzera vito portuguese brazilian brasil roda jequiti silvio santos"
+  },
+  {
+    "id": 1824362,
+    "status": "ranked",
+    "bpm": 128,
+    "artist": "MC Bola de Fogo e as Foguentas",
+    "title": "Atoladinha (Cut Ver.)",
+    "user_id": 13776127,
+    "creator": "zerokt",
+    "username": "zerokt",
+    "diffs": [
+      {
+        "mode": 2,
+        "stars": 3.65
+      },
+      {
+        "mode": 2,
+        "stars": 2.6
+      },
+      {
+        "mode": 2,
+        "stars": 1.36
+      },
+      {
+        "mode": 2,
+        "stars": 1.92
+      }
+    ],
+    "last_updated": "2022-08-18T09:09:20Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1824362/covers/list.jpg?1660813776",
+    "nsfw": false,
+    "tags": "brasil brazilian brasileiro carioca rio de janeiro rj funk português portuguese favela latin piririm alguem alguém ligou pra para mim quem e é sou eu bola de fogo calor ta de matar latino south america hip hop hiphop to tô ficando vou atolar calma dj marlboro tati quebra-barraco version other pop popular (enterradinha) kukkai"
   },
   {
     "id": 1822529,
@@ -4757,6 +5905,26 @@ const data =[
     "tags": "luva de pedreiro receba recebo allan jesus empresario filho da puta"
   },
   {
+    "id": 1800103,
+    "status": "graveyard",
+    "bpm": 128,
+    "artist": "Jack e Chocolate",
+    "title": "Um Morto Muito Louco",
+    "user_id": 9731062,
+    "creator": "-Flashlight-",
+    "username": "-Flashlight-",
+    "diffs": [
+      {
+        "mode": 1,
+        "stars": 3.57
+      }
+    ],
+    "last_updated": "2022-07-05T17:54:11Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1800103/covers/list.jpg?1659463273",
+    "nsfw": false,
+    "tags": "dj marlboro funk carioca furacao furacão 2000 brasil brazil portuguese portugues português"
+  },
+  {
     "id": 1797825,
     "status": "graveyard",
     "bpm": 100,
@@ -4820,6 +5988,26 @@ const data =[
     "thumbnail": "https://assets.ppy.sh/beatmaps/1797049/covers/list.jpg?1659042061",
     "nsfw": false,
     "tags": ""
+  },
+  {
+    "id": 1795162,
+    "status": "graveyard",
+    "bpm": 179,
+    "artist": "Legião Urbana",
+    "title": "Metal Contra as Nuvens",
+    "user_id": 18039030,
+    "creator": "Tramon",
+    "username": "Tramon",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 3.77
+      }
+    ],
+    "last_updated": "2022-07-30T19:40:20Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1795162/covers/list.jpg?1661630454",
+    "nsfw": false,
+    "tags": "portuguese rock nacional mpb brasil long map"
   },
   {
     "id": 1787928,
@@ -5309,6 +6497,34 @@ const data =[
     "tags": "brasil forro piseiro galega safadinha meme jump carinho no escurinho"
   },
   {
+    "id": 1750329,
+    "status": "graveyard",
+    "bpm": 132,
+    "artist": "Jão",
+    "title": "Idiota",
+    "user_id": 9731062,
+    "creator": "-Flashlight-",
+    "username": "-Flashlight-",
+    "diffs": [
+      {
+        "mode": 1,
+        "stars": 3.23
+      },
+      {
+        "mode": 1,
+        "stars": 2.21
+      },
+      {
+        "mode": 1,
+        "stars": 2.69
+      }
+    ],
+    "last_updated": "2022-04-27T02:37:26Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1750329/covers/list.jpg?1651027062",
+    "nsfw": false,
+    "tags": "pop portuguese portugues português pirata brasil brazil"
+  },
+  {
     "id": 1749172,
     "status": "graveyard",
     "bpm": 127,
@@ -5496,6 +6712,34 @@ const data =[
     "tags": ""
   },
   {
+    "id": 1730103,
+    "status": "graveyard",
+    "bpm": 133,
+    "artist": "Kelly Key",
+    "title": "Cachorrinho (Cut Ver.)",
+    "user_id": 14904105,
+    "creator": "kleber veneno",
+    "username": "kleber veneno",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 3.31
+      },
+      {
+        "mode": 0,
+        "stars": 4.65
+      },
+      {
+        "mode": 0,
+        "stars": 2.38
+      }
+    ],
+    "last_updated": "2022-05-03T13:19:58Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1730103/covers/list.jpg?1654003860",
+    "nsfw": false,
+    "tags": "vem aqui brasil brazil pop portuguese r&b dance-pop"
+  },
+  {
     "id": 1727706,
     "status": "graveyard",
     "bpm": 170,
@@ -5515,6 +6759,26 @@ const data =[
     "nsfw": false,
     "genero": [],
     "tags": ""
+  },
+  {
+    "id": 1725204,
+    "status": "graveyard",
+    "bpm": 92,
+    "artist": "Melim",
+    "title": "Meu Abrigo",
+    "user_id": 14904105,
+    "creator": "kleber veneno",
+    "username": "kleber veneno",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 3.96
+      }
+    ],
+    "last_updated": "2022-03-22T14:41:48Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1725204/covers/list.jpg?1650380437",
+    "nsfw": false,
+    "tags": "brasil português pop melim portuguese reggae uuuuuuuuuuuuu"
   },
   {
     "id": 1724739,
@@ -5602,6 +6866,26 @@ const data =[
     "tags": "português portuguese brasil brazil pop forró forro piseiro kali fácil difícil"
   },
   {
+    "id": 1719204,
+    "status": "graveyard",
+    "bpm": 130,
+    "artist": "MC Nem JM e MC Madruguinha (DJ Teixeira e DJ K)",
+    "title": "Balancando as umbrella",
+    "user_id": 16808089,
+    "creator": "Sugus1",
+    "username": "Outright",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 9.44
+      }
+    ],
+    "last_updated": "2022-03-19T03:32:51Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1719204/covers/list.jpg?1650081635",
+    "nsfw": false,
+    "tags": "brazil funk ar 10 meme"
+  },
+  {
     "id": 1718008,
     "status": "graveyard",
     "bpm": 146,
@@ -5684,6 +6968,46 @@ const data =[
     "genero": [],
     "nsfw": false,
     "tags": "inacreditavel pobres ucrania refugiadas governador mamae falei"
+  },
+  {
+    "id": 1714120,
+    "status": "graveyard",
+    "bpm": 130,
+    "artist": "DJ RYAAN",
+    "title": "PAU NO C PAU NA BCT SENTA E KIKA NA CASSETA",
+    "user_id": 16808089,
+    "creator": "Sugus1",
+    "username": "Outright",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 7.92
+      },
+      {
+        "mode": 1,
+        "stars": 6.93
+      },
+      {
+        "mode": 0,
+        "stars": 8.43
+      },
+      {
+        "mode": 0,
+        "stars": 9.63
+      },
+      {
+        "mode": 3,
+        "stars": 6.23
+      },
+      {
+        "mode": 0,
+        "stars": 4.64
+      }
+    ],
+    "last_updated": "2023-01-15T19:34:06Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1714120/covers/list.jpg?1676232030",
+    "nsfw": true,
+    "tags": "jump training jump practice brazil funk brasil portugues explicit meme shitfunk ar 10 angel"
   },
   {
     "id": 1714021,
@@ -5786,6 +7110,26 @@ const data =[
     "tags": "jao mpb pop rock brazillian rock r&b pirata anti heroi"
   },
   {
+    "id": 1706089,
+    "status": "graveyard",
+    "bpm": 145,
+    "artist": "Denilson Felix sanfoneiro",
+    "title": "The Rumbling - Versão Forró",
+    "user_id": 12429294,
+    "creator": "gabriel1ms",
+    "username": "gabriel1ms",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 5.79
+      }
+    ],
+    "last_updated": "2022-02-23T23:15:27Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1706089/covers/list.jpg?1648078261",
+    "nsfw": false,
+    "tags": ""
+  },
+  {
     "id": 1703278,
     "status": "graveyard",
     "bpm": 150,
@@ -5830,6 +7174,94 @@ const data =[
     "nsfw": true,
     "genero": [],
     "tags": "brasil funk br dizzyh meme"
+  },
+  {
+    "id": 1699082,
+    "status": "graveyard",
+    "bpm": 93.52,
+    "artist": "Banda Djavu & DJ Juninho Portugal",
+    "title": "O Que Pensa Que Eu Sou",
+    "user_id": 13131334,
+    "creator": "Darkbbt",
+    "username": "Darkbbt",
+    "diffs": [
+      {
+        "mode": 3,
+        "stars": 4.6
+      },
+      {
+        "mode": 3,
+        "stars": 4.93
+      },
+      {
+        "mode": 3,
+        "stars": 5.25
+      },
+      {
+        "mode": 3,
+        "stars": 5.58
+      },
+      {
+        "mode": 3,
+        "stars": 4.28
+      }
+    ],
+    "last_updated": "2022-08-10T13:15:57Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1699082/covers/list.jpg?1662557470",
+    "nsfw": false,
+    "tags": "brasil funk chordjack antigas cj anchorjack"
+  },
+  {
+    "id": 1698231,
+    "status": "graveyard",
+    "bpm": 237.6,
+    "artist": "Aline Barros",
+    "title": "Eu Li Na Biblia (Speed up & Cut Ver.)",
+    "user_id": 13131334,
+    "creator": "Darkbbt",
+    "username": "Darkbbt",
+    "diffs": [
+      {
+        "mode": 3,
+        "stars": 6.21
+      },
+      {
+        "mode": 3,
+        "stars": 6.69
+      },
+      {
+        "mode": 3,
+        "stars": 7.18
+      },
+      {
+        "mode": 3,
+        "stars": 7.66
+      },
+      {
+        "mode": 3,
+        "stars": 5.96
+      },
+      {
+        "mode": 3,
+        "stars": 6.45
+      },
+      {
+        "mode": 3,
+        "stars": 6.94
+      },
+      {
+        "mode": 3,
+        "stars": 7.42
+      },
+      {
+        "mode": 3,
+        "stars": 5.72
+      }
+    ],
+    "last_updated": "2022-02-14T13:16:15Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1698231/covers/list.jpg?1647264662",
+    "nsfw": false,
+    "tags": "jack chordjack anchorjack cj dense stamina"
   },
   {
     "id": 1695049,
@@ -5985,6 +7417,26 @@ const data =[
     "tags": "a rola dele parece um bambu eu tenho medo do comedor de cu brasil rock"
   },
   {
+    "id": 1682859,
+    "status": "graveyard",
+    "bpm": 130,
+    "artist": "HALC DJ",
+    "title": "PANCADAO DO SUBMUNDO",
+    "user_id": 16808089,
+    "creator": "Sugus1",
+    "username": "Outright",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 9.23
+      }
+    ],
+    "last_updated": "2022-06-01T02:35:16Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1682859/covers/list.jpg?1656471616",
+    "nsfw": true,
+    "tags": "funk brazil brasil training jump practice bass"
+  },
+  {
     "id": 1682490,
     "status": "graveyard",
     "bpm": 160,
@@ -6114,6 +7566,26 @@ const data =[
     "tags": "poze brasil brazil portugues portuguese bone pa traz"
   },
   {
+    "id": 1672386,
+    "status": "graveyard",
+    "bpm": 130,
+    "artist": "Mc Maha",
+    "title": "Arcane Pancadão (DJ WS)",
+    "user_id": 15879318,
+    "creator": "xXOtsutsukiXx",
+    "username": "Otsu-",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.55
+      }
+    ],
+    "last_updated": "2022-01-12T00:47:36Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1672386/covers/list.jpg?1644368487",
+    "nsfw": true,
+    "tags": "mc maha funk anime funk arcane funk br arcane imagine dragons arcane arcane funk mc maha arcane"
+  },
+  {
     "id": 1672237,
     "status": "graveyard",
     "bpm": 178,
@@ -6160,6 +7632,26 @@ const data =[
     "tags": "pagode"
   },
   {
+    "id": 1666262,
+    "status": "graveyard",
+    "bpm": 179,
+    "artist": "Lucas Inutilismo",
+    "title": "2021 EM UMA MÚSICA",
+    "user_id": 14904105,
+    "creator": "kleber veneno",
+    "username": "kleber veneno",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 5.84
+      }
+    ],
+    "last_updated": "2022-09-23T22:53:36Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1666262/covers/list.jpg?1666393235",
+    "nsfw": true,
+    "tags": "montero (call me by your name) - lil nas x stay - the kid laroi & justin bieber leave the door open - silk sonic beggin’ - maneskin i wanna be your slave - maneskin need to know - doja cat kiss me more - doja cat ft. sza butter - bts peaches - justin bieber life goes on - oliver tree bipolar - mc davi mc pedrinho & mc don juan trava na pose chama no zoom dá um close - dj patrick muniz taca a xereca pra mim - mc kaique da vp se tá solteira - fbc freio da blazer - l7nnon m4 - teto matuê quer voar - matuê a queda - gloria groove tiffany - md chefe rei lacoste - md chefe penhasco. - luísa sonza baby me atende - mateus fernandes dilsinho não não vou - mari fernandez industry baby - lil nas x money - lisa happier than ever - billie eilish good 4 u - olívia rodrigo esqueça-me se for capaz - marília mendonça maiara & maraísa gabriel bueno"
+  },
+  {
     "id": 1665063,
     "status": "graveyard",
     "bpm": 89.5,
@@ -6179,6 +7671,26 @@ const data =[
     "genero": [],
     "nsfw": false,
     "tags": "portugues portuguese brasil brazil pop rock 2021 lil nas x - montero (call me by your name) the kid laroi justin bieber - stay bruno mars anderson .paak silk sonic - leave the door open maneskin - beggin' maneskin - i wanna be your slave doja cat - need to know doja cat - kiss me more bts - butter justin bieber ft. daniel caesar giveon - peaches mc don juan mc davi e mc pedrinho - bipolar mc topre & mc rennan - trava na pose chama no zoom dÁ um close mc kaique da vp - taca a xereca pra mim fbc & vhoor ft. mac júlia - se tá solteira freio da blazer - l7nnon m4 - teto matuê quer voar - matue a queda - gloria groove tiffany - md chefe rei lacoste - md chefe penhasco. - luísa sonza penhasco mateus fernandes e dilsinho - baby me atende lil nas x - industry baby retrospectiva lisa - money billie eilish - happier than ever olivia rodrigo - good 4 u marília mendonça & maiara e maraisa - esqueça-me se for capaz"
+  },
+  {
+    "id": 1664118,
+    "status": "graveyard",
+    "bpm": 140,
+    "artist": "Leno Brega",
+    "title": "Trepada em Cuiaba",
+    "user_id": 15393385,
+    "creator": "thecorno",
+    "username": "thecorno",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.39
+      }
+    ],
+    "last_updated": "2022-09-25T17:46:01Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1664118/covers/list.jpg?1666548018",
+    "nsfw": true,
+    "tags": ""
   },
   {
     "id": 1663860,
@@ -6202,6 +7714,50 @@ const data =[
     "thumbnail": "https://assets.ppy.sh/beatmaps/1663860/covers/list.jpg?1644589833",
     "nsfw": false,
     "tags": "lucas vinicius inutilismo 2021 retrospectiva youtube lil nas x the kid laroi justin bieber bruno mars anderson .paak silk sonic måneskin doja cat bts daniel caesar giveon oliver tree mc don juan davi pedrinho topre & rennan kaique da vp fbc & vhoor l7nnonteto matuê gloria groove chefe domlaike luisa sonza mateus fernandes e dilsinho lisa billie eilish olivia rodrigo marilia mendonça maiara e maraisa montero (call me by your name) stay leave the door open beggin' need to know kiss me more butter peaches life goes on bipolar trava na pose chama no zoom da um close taca a xereca pra mim se ta solteira freio da blazer m4 quer voar a queda tiffany rei lacoste penhasco baby me atende industry baby money happier than ever good 4 u esqueça-me se for capaz rock metal pop funk brasil rafaelxdp"
+  },
+  {
+    "id": 1661302,
+    "status": "graveyard",
+    "bpm": 121,
+    "artist": "Canal Boom",
+    "title": "Abertura do Canal Boom (TV Size)",
+    "user_id": 18039030,
+    "creator": "Tramon",
+    "username": "Tramon",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 8.17
+      },
+      {
+        "mode": 0,
+        "stars": 6.15
+      },
+      {
+        "mode": 0,
+        "stars": 2.61
+      },
+      {
+        "mode": 0,
+        "stars": 4.92
+      },
+      {
+        "mode": 0,
+        "stars": 3.93
+      },
+      {
+        "mode": 0,
+        "stars": 7.93
+      },
+      {
+        "mode": 0,
+        "stars": 3.33
+      }
+    ],
+    "last_updated": "2021-12-28T19:26:51Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1661302/covers/list.jpg?1643139053",
+    "nsfw": false,
+    "tags": "portuguese desafio hardcore brasil rap minecraft vinheta abertura bolsonaro xxtentacion pisadinha"
   },
   {
     "id": 1657654,
@@ -6388,6 +7944,70 @@ const data =[
     "tags": "brasil funk final de ano natal jump ar 10 destination cabralia 2007 alust careca vaxei mira do joaka stindll roraima paraguai sonasera whitecat cookiezi chocomint"
   },
   {
+    "id": 1639712,
+    "status": "graveyard",
+    "bpm": 135,
+    "artist": "Jorge Ben Jor",
+    "title": "Chove Chuva (Lofi Remix)",
+    "user_id": 18039030,
+    "creator": "Thramour",
+    "username": "Tramon",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.37
+      },
+      {
+        "mode": 0,
+        "stars": 3.97
+      }
+    ],
+    "last_updated": "2021-12-05T03:43:10Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1639712/covers/list.jpg?1641096033",
+    "nsfw": false,
+    "tags": ""
+  },
+  {
+    "id": 1639610,
+    "status": "graveyard",
+    "bpm": 112,
+    "artist": "Titas",
+    "title": "Epitafio",
+    "user_id": 18039030,
+    "creator": "Thramour",
+    "username": "Tramon",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 3.33
+      }
+    ],
+    "last_updated": "2021-11-29T22:49:47Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1639610/covers/list.jpg?1640646050",
+    "nsfw": false,
+    "tags": "portuguese rock triste ;-; uwu"
+  },
+  {
+    "id": 1639558,
+    "status": "graveyard",
+    "bpm": 107,
+    "artist": "BRAZA",
+    "title": "We Are Terceiro Mundo",
+    "user_id": 18039030,
+    "creator": "Thramour",
+    "username": "Tramon",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 5.68
+      }
+    ],
+    "last_updated": "2021-11-29T21:12:38Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1639558/covers/list.jpg?1640640646",
+    "nsfw": false,
+    "tags": "portuguese rock brasil bolsonaro kk"
+  },
+  {
     "id": 1637146,
     "status": "graveyard",
     "bpm": 200,
@@ -6409,6 +8029,62 @@ const data =[
     "tags": ""
   },
   {
+    "id": 1632105,
+    "status": "graveyard",
+    "bpm": 150,
+    "artist": "C4000",
+    "title": "Ilusao (feat. Brocasito)",
+    "user_id": 11251594,
+    "creator": "Sharpay",
+    "username": "sharpay",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.12
+      },
+      {
+        "mode": 0,
+        "stars": 2.28
+      },
+      {
+        "mode": 0,
+        "stars": 2.54
+      }
+    ],
+    "last_updated": "2022-05-02T17:18:14Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1632105/covers/list.jpg?1653931826",
+    "nsfw": true,
+    "tags": ""
+  },
+  {
+    "id": 1627674,
+    "status": "ranked",
+    "bpm": 144,
+    "artist": "André Abujamra",
+    "title": "Especial de Natal da Luna",
+    "user_id": 9731062,
+    "creator": "-Flashlight-",
+    "username": "-Flashlight-",
+    "diffs": [
+      {
+        "mode": 1,
+        "stars": 2.63
+      },
+      {
+        "mode": 1,
+        "stars": 1.39
+      },
+      {
+        "mode": 1,
+        "stars": 2.12
+      }
+    ],
+    "last_updated": "2022-01-01T16:46:15Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1627674/covers/list.jpg?1641055589",
+    "nsfw": false,
+    "tags": "português portugues portuguese cartoon earth to brasil brazil christmas xmas júpiter jupiter cláudio claudio clyde kid andré marcio nigro anime x-mas pop"
+  },
+  {
     "id": 1627320,
     "status": "graveyard",
     "bpm": 148,
@@ -6428,6 +8104,34 @@ const data =[
     "nsfw": false,
     "genero": [],
     "tags": "music for kids rock portuguese infantil musica youtuber"
+  },
+  {
+    "id": 1626648,
+    "status": "graveyard",
+    "bpm": 126,
+    "artist": "MD Chefe",
+    "title": "Tiffany",
+    "user_id": 25745012,
+    "creator": "WeabooMaster",
+    "username": "WeabooMaster",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 2.21
+      },
+      {
+        "mode": 0,
+        "stars": 2.93
+      },
+      {
+        "mode": 0,
+        "stars": 2.47
+      }
+    ],
+    "last_updated": "2021-12-26T19:49:46Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1626648/covers/list.jpg?1642968036",
+    "nsfw": true,
+    "tags": "tik tok md chefe brasil br trap nacional drip"
   },
   {
     "id": 1620029,
@@ -6474,6 +8178,38 @@ const data =[
     "tags": ""
   },
   {
+    "id": 1614599,
+    "status": "graveyard",
+    "bpm": 173,
+    "artist": "Gabreeul",
+    "title": "Misery Business Até Que Durou",
+    "user_id": 15879318,
+    "creator": "xXOtsutsukiXx",
+    "username": "Otsu-",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 5.4
+      },
+      {
+        "mode": 0,
+        "stars": 5.77
+      },
+      {
+        "mode": 0,
+        "stars": 5.12
+      },
+      {
+        "mode": 0,
+        "stars": 5.35
+      }
+    ],
+    "last_updated": "2021-10-30T12:27:44Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1614599/covers/list.jpg?1638016289",
+    "nsfw": false,
+    "tags": "péricles paramore brasil collab samba rock brazilian collab"
+  },
+  {
     "id": 1607268,
     "status": "graveyard",
     "bpm": 134.2,
@@ -6495,6 +8231,26 @@ const data =[
     "tags": "sertanejo universitario brazil brasil zé neto e cristiano largado às traças português portuguese"
   },
   {
+    "id": 1606071,
+    "status": "graveyard",
+    "bpm": 124,
+    "artist": "eliminadorzinho",
+    "title": "das vezes que conversamos na cama e acabamos dormindo",
+    "user_id": 9731062,
+    "creator": "-Flashlight-",
+    "username": "-Flashlight-",
+    "diffs": [
+      {
+        "mode": 1,
+        "stars": 3.26
+      }
+    ],
+    "last_updated": "2021-10-22T00:57:00Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1606071/covers/list.jpg?1637283671",
+    "nsfw": false,
+    "tags": "restará indie rock noise shoegaze portuguese português brazil brasil"
+  },
+  {
     "id": 1601968,
     "status": "graveyard",
     "bpm": 150,
@@ -6514,6 +8270,34 @@ const data =[
     "genero": [],
     "nsfw": false,
     "tags": "vasco ribamito cano ramon time brasil"
+  },
+  {
+    "id": 1600015,
+    "status": "graveyard",
+    "bpm": 130,
+    "artist": "MC Kaique da VP",
+    "title": "Taca a Xereca pra Mim (Cut Ver.)",
+    "user_id": 9731062,
+    "creator": "-Flashlight-",
+    "username": "-Flashlight-",
+    "diffs": [
+      {
+        "mode": 1,
+        "stars": 2.32
+      },
+      {
+        "mode": 1,
+        "stars": 1.92
+      },
+      {
+        "mode": 1,
+        "stars": 1.4
+      }
+    ],
+    "last_updated": "2021-10-15T14:30:06Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1600015/covers/list.jpg?1636729307",
+    "nsfw": true,
+    "tags": "portuguese electronic funk carioca version dj skype"
   },
   {
     "id": 1597708,
@@ -6600,6 +8384,30 @@ const data =[
     "genero": [],
     "nsfw": false,
     "tags": "brasil meme"
+  },
+  {
+    "id": 1595323,
+    "status": "graveyard",
+    "bpm": 120,
+    "artist": "Palavra Cantada",
+    "title": "Tchibum da Cabeça ao Bumbum",
+    "user_id": 9731062,
+    "creator": "-Flashlight-",
+    "username": "-Flashlight-",
+    "diffs": [
+      {
+        "mode": 1,
+        "stars": 2.31
+      },
+      {
+        "mode": 1,
+        "stars": 1.37
+      }
+    ],
+    "last_updated": "2021-10-07T11:37:50Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1595323/covers/list.jpg?1636027267",
+    "nsfw": false,
+    "tags": "sandra peres ze zé tatit vem dançar com a gente dancar brazil brasil portuguese português children kids infantil"
   },
   {
     "id": 1594974,
@@ -6723,6 +8531,34 @@ const data =[
     "tags": "xxluizxx47"
   },
   {
+    "id": 1581437,
+    "status": "ranked",
+    "bpm": 158,
+    "artist": "Clarissa",
+    "title": "nada contra (ciúme)",
+    "user_id": 11251594,
+    "creator": "Sharpay",
+    "username": "sharpay",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 3.99
+      },
+      {
+        "mode": 0,
+        "stars": 2.82
+      },
+      {
+        "mode": 0,
+        "stars": 2.17
+      }
+    ],
+    "last_updated": "2021-09-30T22:46:31Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1581437/covers/list.jpg?1633042007",
+    "nsfw": false,
+    "tags": "clapivara clarissamuller pop portuguese tiktok tik tok brazil brasil poppunk indiepop"
+  },
+  {
     "id": 1578681,
     "status": "graveyard",
     "bpm": 174,
@@ -6789,6 +8625,34 @@ const data =[
     "tags": ""
   },
   {
+    "id": 1578436,
+    "status": "graveyard",
+    "bpm": 120,
+    "artist": "MD Chefe",
+    "title": "Rei Lacoste",
+    "user_id": 25745012,
+    "creator": "WeabooMaster",
+    "username": "WeabooMaster",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 1.9
+      },
+      {
+        "mode": 0,
+        "stars": 2.27
+      },
+      {
+        "mode": 0,
+        "stars": 2.67
+      }
+    ],
+    "last_updated": "2023-10-01T22:16:54Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1578436/covers/list.jpg?1698618626",
+    "nsfw": false,
+    "tags": "moda casual de luxo brasil md chefe md trap trap br br"
+  },
+  {
     "id": 1577762,
     "genero": [
       "Forró"
@@ -6824,6 +8688,38 @@ const data =[
     "tags": "whatsapp eletro tecnobrega brasil brazil portuguese pop"
   },
   {
+    "id": 1575645,
+    "status": "graveyard",
+    "bpm": 128,
+    "artist": "Bola de Fogo e as Foguentas",
+    "title": "Atoladinha (Cut Ver.)",
+    "user_id": 9731062,
+    "creator": "-Flashlight-",
+    "username": "-Flashlight-",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.73
+      },
+      {
+        "mode": 0,
+        "stars": 3.26
+      },
+      {
+        "mode": 0,
+        "stars": 1.57
+      },
+      {
+        "mode": 0,
+        "stars": 2.09
+      }
+    ],
+    "last_updated": "2021-10-05T15:14:42Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1575645/covers/list.jpg?1635867068",
+    "nsfw": false,
+    "tags": "to tô ficando (enterradinha) dj marlboro tati quebra-barraco portuguese português funk carioca mc version other"
+  },
+  {
     "id": 1571202,
     "status": "graveyard",
     "bpm": 111,
@@ -6843,6 +8739,50 @@ const data =[
     "genero": [],
     "nsfw": true,
     "tags": ""
+  },
+  {
+    "id": 1566933,
+    "status": "graveyard",
+    "bpm": 200,
+    "artist": "Yung Lixo",
+    "title": "Ratatouille",
+    "user_id": 18039030,
+    "creator": "Thramour",
+    "username": "Tramon",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 6.31
+      },
+      {
+        "mode": 0,
+        "stars": 5
+      }
+    ],
+    "last_updated": "2021-09-14T22:15:43Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1566933/covers/list.jpg?1634077820",
+    "nsfw": true,
+    "tags": ""
+  },
+  {
+    "id": 1566059,
+    "status": "graveyard",
+    "bpm": 124,
+    "artist": "Unknown Artist",
+    "title": "Casos de Família",
+    "user_id": 9731062,
+    "creator": "-Flashlight-",
+    "username": "-Flashlight-",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 7.37
+      }
+    ],
+    "last_updated": "2021-09-01T15:09:44Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1566059/covers/list.jpg?1632929489",
+    "nsfw": true,
+    "tags": "sbt instrumental"
   },
   {
     "id": 1562867,
@@ -6951,6 +8891,54 @@ const data =[
     "tags": "eletronic jump"
   },
   {
+    "id": 1557233,
+    "status": "graveyard",
+    "bpm": 160,
+    "artist": "7 Minutoz",
+    "title": "Rap Da Akatsuki: Os Ninjas Mais Procurados Do Mundo (Nerd Hits)",
+    "user_id": 15879318,
+    "creator": "xXOtsutsukiXx",
+    "username": "Otsu-",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 5.16
+      }
+    ],
+    "last_updated": "2021-08-22T19:11:05Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1557233/covers/list.jpg?1632079904",
+    "nsfw": false,
+    "tags": "rap anime 7 minutoz rap da akatsuki anime rap naruto rap naruto"
+  },
+  {
+    "id": 1552872,
+    "status": "graveyard",
+    "bpm": 132.5,
+    "artist": "Edson Olhos",
+    "title": "Musica dos Desafios do Everson Zoio",
+    "user_id": 18039030,
+    "creator": "Thramour",
+    "username": "Tramon",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 1.92
+      },
+      {
+        "mode": 0,
+        "stars": 4.25
+      },
+      {
+        "mode": 0,
+        "stars": 3.28
+      }
+    ],
+    "last_updated": "2021-08-18T04:26:03Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1552872/covers/list.jpg?1631680239",
+    "nsfw": false,
+    "tags": "everson zoio caique brasil hardcore desafio pinga azul"
+  },
+  {
     "id": 1552728,
     "status": "graveyard",
     "bpm": 114,
@@ -6970,6 +8958,58 @@ const data =[
     "nsfw": true,
     "genero": [],
     "tags": ""
+  },
+  {
+    "id": 1552135,
+    "status": "graveyard",
+    "bpm": 236,
+    "artist": "Gameplayrj",
+    "title": "Intro",
+    "user_id": 9731062,
+    "creator": "-Flashlight-",
+    "username": "-Flashlight-",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 8.76
+      },
+      {
+        "mode": 0,
+        "stars": 7.12
+      }
+    ],
+    "last_updated": "2021-08-17T11:39:45Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1552135/covers/list.jpg?1631620870",
+    "nsfw": false,
+    "tags": "davy jones pimba opening instrumental electronic brasil brazil"
+  },
+  {
+    "id": 1548819,
+    "status": "graveyard",
+    "bpm": 134,
+    "artist": "Victor Pozas",
+    "title": "Fina Estampa (Instrumental)",
+    "user_id": 9731062,
+    "creator": "-Flashlight-",
+    "username": "-Flashlight-",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 2.85
+      },
+      {
+        "mode": 0,
+        "stars": 1.42
+      },
+      {
+        "mode": 0,
+        "stars": 1.91
+      }
+    ],
+    "last_updated": "2021-08-25T14:48:03Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1548819/covers/list.jpg?1632322895",
+    "nsfw": false,
+    "tags": "chabuca granda rede tv globo opening abertura novela instrumental"
   },
   {
     "id": 1548725,
@@ -7057,6 +9097,34 @@ const data =[
     "genero": [],
     "nsfw": false,
     "tags": ""
+  },
+  {
+    "id": 1545380,
+    "status": "graveyard",
+    "bpm": 118,
+    "artist": "Charlie Brown Jr.",
+    "title": "Te Levar Daqui (TV Size)",
+    "user_id": 9731062,
+    "creator": "-Flashlight-",
+    "username": "-Flashlight-",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.68
+      },
+      {
+        "mode": 0,
+        "stars": 3.24
+      },
+      {
+        "mode": 0,
+        "stars": 2.08
+      }
+    ],
+    "last_updated": "2021-09-08T12:33:47Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1545380/covers/list.jpg?1633525277",
+    "nsfw": false,
+    "tags": "preco preço curto... prazo longo rede tv globo chorao chorão vou portuguese rock intro soap opera português other opening malhacao"
   },
   {
     "id": 1542167,
@@ -7245,6 +9313,90 @@ const data =[
     "tags": "portuguese pt-br brazil indie rock alternativo mpb"
   },
   {
+    "id": 1525843,
+    "status": "graveyard",
+    "bpm": 175,
+    "artist": "Fresno",
+    "title": "Diga, Parte 2",
+    "user_id": 18039030,
+    "creator": "Thramour",
+    "username": "Tramon",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 5.17
+      }
+    ],
+    "last_updated": "2021-07-20T22:57:17Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1525843/covers/list.jpg?1629241266",
+    "nsfw": false,
+    "tags": ""
+  },
+  {
+    "id": 1524040,
+    "status": "graveyard",
+    "bpm": 102.3,
+    "artist": "Simpson Alust",
+    "title": "Simpson Gamer intro (cover)",
+    "user_id": 3139168,
+    "creator": "Hawk225",
+    "username": "Hawk225",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 5.07
+      }
+    ],
+    "last_updated": "2021-07-19T21:58:44Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1524040/covers/list.jpg?1629151236",
+    "nsfw": false,
+    "tags": ""
+  },
+  {
+    "id": 1521342,
+    "status": "graveyard",
+    "bpm": 206,
+    "artist": "simpson gamer",
+    "title": "voce esta no canal simpson gamer",
+    "user_id": 15393385,
+    "creator": "thecorno",
+    "username": "thecorno",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 6.55
+      },
+      {
+        "mode": 0,
+        "stars": 11.31
+      },
+      {
+        "mode": 0,
+        "stars": 4.25
+      },
+      {
+        "mode": 0,
+        "stars": 3.2
+      },
+      {
+        "mode": 0,
+        "stars": 4.69
+      },
+      {
+        "mode": 0,
+        "stars": 4.4
+      },
+      {
+        "mode": 0,
+        "stars": 5.6
+      }
+    ],
+    "last_updated": "2023-02-08T00:49:10Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1521342/covers/list.jpg?1678237214",
+    "nsfw": false,
+    "tags": ""
+  },
+  {
     "id": 1520141,
     "status": "graveyard",
     "bpm": 135,
@@ -7403,6 +9555,26 @@ const data =[
     "tags": ""
   },
   {
+    "id": 1512825,
+    "status": "graveyard",
+    "bpm": 85,
+    "artist": "Mc Poze Do Rodo | Bielzin | PL Quest | Mc Cabelinho",
+    "title": "A Cara do Crime \"NOS INCOMODA\"",
+    "user_id": 11619364,
+    "creator": "SouGustaa",
+    "username": "SouGustaa",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 5.22
+      }
+    ],
+    "last_updated": "2021-07-07T20:07:20Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1512825/covers/list.jpg?1628109119",
+    "nsfw": false,
+    "tags": "poze do rodo funk trap brasil brazil"
+  },
+  {
     "id": 1511758,
     "genero": [
       "Rock"
@@ -7541,6 +9713,26 @@ const data =[
     "nsfw": false,
     "genero": [],
     "tags": "brasil brazil portuguese português ultrassom batidão tropical dj gorkynho zebu maffalda banda ravelly pará brega funk"
+  },
+  {
+    "id": 1502480,
+    "status": "graveyard",
+    "bpm": 148,
+    "artist": "VMZ",
+    "title": "Plutão",
+    "user_id": 11619364,
+    "creator": "SouGustaa",
+    "username": "SouGustaa",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.14
+      }
+    ],
+    "last_updated": "2022-11-11T20:59:41Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1502480/covers/list.jpg?1670619644",
+    "nsfw": false,
+    "tags": "brasil vmz brazil portuguese português"
   },
   {
     "id": 1501996,
@@ -7727,6 +9919,26 @@ const data =[
     "nsfw": false,
     "tags": "portuguese brazilian pop lgbt brasil",
     "genero": []
+  },
+  {
+    "id": 1483855,
+    "status": "graveyard",
+    "bpm": 168,
+    "artist": "Baroes da pisadinha",
+    "title": "Basta Voce Me Ligar",
+    "user_id": 15879318,
+    "creator": "xXOtsutsukiXx",
+    "username": "Otsu-",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.7
+      }
+    ],
+    "last_updated": "2022-10-11T16:54:48Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1483855/covers/list.jpg?1667926868",
+    "nsfw": false,
+    "tags": "baroes da pisadinha forro brasil portugues pisadinha brasileira perna bamba basta voce me ligar brazil musica brasileira"
   },
   {
     "id": 1483021,
@@ -7936,6 +10148,26 @@ const data =[
     "tags": ""
   },
   {
+    "id": 1433541,
+    "status": "graveyard",
+    "bpm": 124.25,
+    "artist": "Lebline Records",
+    "title": "Rio festa em Ipanema (lo-Fi REMIX)",
+    "user_id": 15879318,
+    "creator": "xXOtsutsukiXx",
+    "username": "Otsu-",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.23
+      }
+    ],
+    "last_updated": "2021-04-15T22:58:44Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1433541/covers/list.jpg?1620946846",
+    "nsfw": false,
+    "tags": "brazilian songs brasil rio lo fi"
+  },
+  {
     "id": 1433461,
     "status": "graveyard",
     "bpm": 221,
@@ -8057,6 +10289,26 @@ const data =[
     "genero": [],
     "nsfw": false,
     "tags": "brasil"
+  },
+  {
+    "id": 1426829,
+    "status": "graveyard",
+    "bpm": 160,
+    "artist": "Felipe Araujo ft. Ferrugem",
+    "title": "Atrasadinha",
+    "user_id": 8784535,
+    "creator": "Asenkyo",
+    "username": "Asenkyo",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.28
+      }
+    ],
+    "last_updated": "2022-10-19T21:52:28Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1426829/covers/list.jpg?1668636013",
+    "nsfw": false,
+    "tags": "brazil sertanejo"
   },
   {
     "id": 1425722,
@@ -8206,6 +10458,26 @@ const data =[
     "genero": [],
     "nsfw": false,
     "tags": ""
+  },
+  {
+    "id": 1403733,
+    "status": "graveyard",
+    "bpm": 130,
+    "artist": "Mulher Melancia",
+    "title": "Velocidade 6",
+    "user_id": 13776127,
+    "creator": "zerokt",
+    "username": "zerokt",
+    "diffs": [
+      {
+        "mode": 2,
+        "stars": 5.35
+      }
+    ],
+    "last_updated": "2021-03-16T09:58:30Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1403733/covers/list.jpg?1618308042",
+    "nsfw": false,
+    "tags": "mulher melancia brasil brazil meme"
   },
   {
     "id": 1400364,
@@ -8567,6 +10839,50 @@ const data =[
     "tags": "smine quenga brazil pabllo vittar planalto bitar pablo vitar"
   },
   {
+    "id": 1374475,
+    "status": "graveyard",
+    "bpm": 136,
+    "artist": "Mandragora",
+    "title": "Sem Chão",
+    "user_id": 11984937,
+    "creator": "RafaelXDP",
+    "username": "RafaelXDP",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 5.7
+      }
+    ],
+    "last_updated": "2021-02-14T01:02:33Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1374475/covers/list.jpg?1615685442",
+    "nsfw": false,
+    "tags": ""
+  },
+  {
+    "id": 1372680,
+    "status": "graveyard",
+    "bpm": 140,
+    "artist": "Yung Lixo",
+    "title": "você sabia",
+    "user_id": 18039030,
+    "creator": "Thramour",
+    "username": "Tramon",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.48
+      },
+      {
+        "mode": 0,
+        "stars": 4.47
+      }
+    ],
+    "last_updated": "2021-09-09T05:27:34Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1372680/covers/list.jpg?1633584620",
+    "nsfw": true,
+    "tags": ""
+  },
+  {
     "id": 1369275,
     "genero": [
       "Rock Alternativo"
@@ -8642,6 +10958,66 @@ const data =[
     "genero": [],
     "nsfw": false,
     "tags": "funk novinha maffalda jersey club pesadao proibidao soca soca"
+  },
+  {
+    "id": 1368142,
+    "status": "graveyard",
+    "bpm": 300,
+    "artist": "Milharal X Kurokotei",
+    "title": "Galaxy Ronaldo",
+    "user_id": 13776127,
+    "creator": "zerokt",
+    "username": "zerokt",
+    "diffs": [
+      {
+        "mode": 2,
+        "stars": 7.33
+      },
+      {
+        "mode": 2,
+        "stars": 7.09
+      },
+      {
+        "mode": 2,
+        "stars": 9.84
+      },
+      {
+        "mode": 2,
+        "stars": 6.87
+      },
+      {
+        "mode": 2,
+        "stars": 5.22
+      },
+      {
+        "mode": 0,
+        "stars": 7.89
+      }
+    ],
+    "last_updated": "2021-02-21T05:23:30Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1368142/covers/list.jpg?1616304614",
+    "nsfw": false,
+    "tags": "touhou sorrizo ronaldo speedcore heian alien nue houjuu undefined fantastic object marathon kurokotei featured artist syst hanik joakh endou- xxluizxx47"
+  },
+  {
+    "id": 1366459,
+    "status": "graveyard",
+    "bpm": 150,
+    "artist": "Yung Lixo",
+    "title": "Hino do Tibeckstão",
+    "user_id": 18039030,
+    "creator": "Thramour",
+    "username": "Tramon",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.74
+      }
+    ],
+    "last_updated": "2021-02-10T00:46:31Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1366459/covers/list.jpg?1615338035",
+    "nsfw": false,
+    "tags": "brasil maconha tiba rei"
   },
   {
     "id": 1366425,
@@ -9280,6 +11656,50 @@ const data =[
     "tags": "brasil aoba pneu queimado will smith"
   },
   {
+    "id": 1321126,
+    "status": "graveyard",
+    "bpm": 270,
+    "artist": "Keanu Reeves",
+    "title": "UM TAPA NA GOSTOSA",
+    "user_id": 13776127,
+    "creator": "zerokt",
+    "username": "zerokt",
+    "diffs": [
+      {
+        "mode": 2,
+        "stars": 4.6
+      },
+      {
+        "mode": 2,
+        "stars": 21.61
+      },
+      {
+        "mode": 3,
+        "stars": 4.57
+      },
+      {
+        "mode": 1,
+        "stars": 4.8
+      },
+      {
+        "mode": 2,
+        "stars": 15.57
+      },
+      {
+        "mode": 0,
+        "stars": 4.65
+      },
+      {
+        "mode": 2,
+        "stars": 3.99
+      }
+    ],
+    "last_updated": "2020-12-15T15:56:15Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1321126/covers/list.jpg?1610467225",
+    "nsfw": false,
+    "tags": ""
+  },
+  {
     "id": 1321062,
     "genero": [
       "Rap"
@@ -9326,6 +11746,30 @@ const data =[
     "genero": [],
     "nsfw": false,
     "tags": "br brazil portuguese brasil pop sertanejo pt"
+  },
+  {
+    "id": 1316860,
+    "status": "graveyard",
+    "bpm": 132,
+    "artist": "Projeto Sola",
+    "title": "Ate Outra Vez",
+    "user_id": 14904105,
+    "creator": "kleber veneno",
+    "username": "kleber veneno",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 5.71
+      },
+      {
+        "mode": 0,
+        "stars": 5.75
+      }
+    ],
+    "last_updated": "2021-08-05T01:59:22Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1316860/covers/list.jpg?1630549818",
+    "nsfw": false,
+    "tags": ""
   },
   {
     "id": 1312233,
@@ -9439,6 +11883,34 @@ const data =[
     "genero": [],
     "nsfw": false,
     "tags": "bossa nova mpb 1998 portugues portuguese brasil bicho solto kauan"
+  },
+  {
+    "id": 1302219,
+    "status": "graveyard",
+    "bpm": 127,
+    "artist": "Liu & Samantha Machado",
+    "title": "Liu & Samantha Machado - Nave Espacial",
+    "user_id": 13387929,
+    "creator": "Duke404",
+    "username": "Duke404",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 2.54
+      },
+      {
+        "mode": 0,
+        "stars": 3.53
+      },
+      {
+        "mode": 0,
+        "stars": 5.39
+      }
+    ],
+    "last_updated": "2021-05-30T01:46:28Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1302219/covers/list.jpg?1624759216",
+    "nsfw": false,
+    "tags": "brasil nave espacial samanta machado liu dj br eletronica portugues"
   },
   {
     "id": 1299078,
@@ -9589,6 +12061,26 @@ const data =[
     "thumbnail": "https://assets.ppy.sh/beatmaps/1294011/covers/list.jpg?1686027619",
     "nsfw": false,
     "tags": "rap minecraft player tauz portugues brasil herobrine jump training"
+  },
+  {
+    "id": 1293197,
+    "status": "graveyard",
+    "bpm": 164,
+    "artist": "Lucas Carrera",
+    "title": "SP de cara nova",
+    "user_id": 9731062,
+    "creator": "-Flashlight-",
+    "username": "-Flashlight-",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 5.21
+      }
+    ],
+    "last_updated": "2020-11-04T17:40:28Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1293197/covers/list.jpg?1606932076",
+    "nsfw": false,
+    "tags": "moledo cavaleiros do zodíaco opening abertura meu jingle oficial 51 \"mamaefalei\""
   },
   {
     "id": 1292586,
@@ -9799,6 +12291,34 @@ const data =[
     "genero": [],
     "nsfw": false,
     "tags": "brasil cheiro de pneu queimado cheia de manias samba pagode forro"
+  },
+  {
+    "id": 1282680,
+    "status": "graveyard",
+    "bpm": 90,
+    "artist": "Matuê",
+    "title": "MATUÊ BAIANO",
+    "user_id": 18039030,
+    "creator": "Thramour",
+    "username": "Tramon",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 3.72
+      },
+      {
+        "mode": 0,
+        "stars": 1.42
+      },
+      {
+        "mode": 0,
+        "stars": 6.15
+      }
+    ],
+    "last_updated": "2021-08-27T04:55:14Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1282680/covers/list.jpg?1632459615",
+    "nsfw": true,
+    "tags": "brasil tuê matuê tuezim mpb baiano bahia"
   },
   {
     "id": 1282518,
@@ -10221,6 +12741,30 @@ const data =[
     "tags": ""
   },
   {
+    "id": 1257531,
+    "status": "graveyard",
+    "bpm": 130,
+    "artist": "Hatsune Miku",
+    "title": "Vapo Vapo x Pocoto [Vocaloid Cover]",
+    "user_id": 13776127,
+    "creator": "zerokt",
+    "username": "zerokt",
+    "diffs": [
+      {
+        "mode": 2,
+        "stars": 6.19
+      },
+      {
+        "mode": 2,
+        "stars": 4.97
+      }
+    ],
+    "last_updated": "2020-09-15T19:54:49Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1257531/covers/list.jpg?1602619235",
+    "nsfw": false,
+    "tags": ""
+  },
+  {
     "id": 1256093,
     "status": "graveyard",
     "bpm": 120,
@@ -10315,6 +12859,38 @@ const data =[
     "tags": ""
   },
   {
+    "id": 1247959,
+    "status": "ranked",
+    "bpm": 140,
+    "artist": "MC Poze do Rodo",
+    "title": "Tá Fluindo",
+    "user_id": 3196091,
+    "creator": "Genjuro",
+    "username": "Genjuro",
+    "diffs": [
+      {
+        "mode": 1,
+        "stars": 2.77
+      },
+      {
+        "mode": 1,
+        "stars": 3.04
+      },
+      {
+        "mode": 1,
+        "stars": 2.06
+      },
+      {
+        "mode": 1,
+        "stars": 1.2
+      }
+    ],
+    "last_updated": "2020-11-10T04:06:57Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1247959/covers/list.jpg?1622196673",
+    "nsfw": false,
+    "tags": "portuguese funk carioca brazil brasil kqrth skull kid skid vrnl the bros 3 fácil difícil kantan futsuu muzukashii oni"
+  },
+  {
     "id": 1245572,
     "status": "graveyard",
     "bpm": 172,
@@ -10403,6 +12979,26 @@ const data =[
     "tags": "youtube sorrizo ronaldo faito kalindraz xxluizxx47 k4l1 yshadowxop_"
   },
   {
+    "id": 1237816,
+    "status": "graveyard",
+    "bpm": 92,
+    "artist": "Un Brasuca",
+    "title": "Um siri fazendo barra",
+    "user_id": 9722528,
+    "creator": "MaiKynhos",
+    "username": "MaiKynhos",
+    "diffs": [
+      {
+        "mode": 3,
+        "stars": 3.6
+      }
+    ],
+    "last_updated": "2020-08-16T23:19:57Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1237816/covers/list.jpg?1600039823",
+    "nsfw": false,
+    "tags": "brasil funny argentina"
+  },
+  {
     "id": 1234124,
     "status": "graveyard",
     "bpm": 336,
@@ -10422,6 +13018,26 @@ const data =[
     "genero": [],
     "nsfw": false,
     "tags": "abafa sound agnelo sente a pressão neném nenem pressao montagem portuguese electronic brazil meme brasil"
+  },
+  {
+    "id": 1230965,
+    "status": "graveyard",
+    "bpm": 122,
+    "artist": "MC Negao Da BL",
+    "title": "Agua Coca Latao",
+    "user_id": 13776127,
+    "creator": "zerokt",
+    "username": "zerokt",
+    "diffs": [
+      {
+        "mode": 2,
+        "stars": 5.18
+      }
+    ],
+    "last_updated": "2020-08-07T06:09:54Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1230965/covers/list.jpg?1599201033",
+    "nsfw": false,
+    "tags": ""
   },
   {
     "id": 1225624,
@@ -11140,6 +13756,54 @@ const data =[
     "tags": ""
   },
   {
+    "id": 1153876,
+    "status": "graveyard",
+    "bpm": 135,
+    "artist": "Rede Globo",
+    "title": "Vinheta SPTV 2013-2015",
+    "user_id": 9731062,
+    "creator": "-Flashlight-",
+    "username": "-Flashlight-",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 3.46
+      },
+      {
+        "mode": 2,
+        "stars": 1.96
+      },
+      {
+        "mode": 2,
+        "stars": 1.02
+      },
+      {
+        "mode": 0,
+        "stars": 1.99
+      },
+      {
+        "mode": 1,
+        "stars": 3.27
+      },
+      {
+        "mode": 0,
+        "stars": 2.43
+      },
+      {
+        "mode": 0,
+        "stars": 1.33
+      },
+      {
+        "mode": 2,
+        "stars": 1.43
+      }
+    ],
+    "last_updated": "2020-04-23T02:34:29Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1153876/covers/list.jpg?1587609287",
+    "nsfw": false,
+    "tags": ""
+  },
+  {
     "id": 1150998,
     "status": "graveyard",
     "bpm": 106,
@@ -11250,6 +13914,34 @@ const data =[
     "nsfw": false,
     "genero": [],
     "tags": ""
+  },
+  {
+    "id": 1135641,
+    "status": "graveyard",
+    "bpm": 126,
+    "artist": "MC's Cidinho e Doca",
+    "title": "Cheiro de pneu queimado",
+    "user_id": 15393385,
+    "creator": "angolapl4yer",
+    "username": "thecorno",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.02
+      },
+      {
+        "mode": 0,
+        "stars": 2.44
+      },
+      {
+        "mode": 0,
+        "stars": 1.99
+      }
+    ],
+    "last_updated": "2020-04-25T22:28:17Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1135641/covers/list.jpg?1587853715",
+    "nsfw": false,
+    "tags": "cheiro de pneu queimado mc cidinho e doca funk brasil shitmap"
   },
   {
     "id": 1134388,
@@ -11581,6 +14273,26 @@ const data =[
     "tags": ""
   },
   {
+    "id": 1118737,
+    "status": "graveyard",
+    "bpm": 161,
+    "artist": "André Abujamra",
+    "title": "O Show da Luna!",
+    "user_id": 9731062,
+    "creator": "-Flashlight-",
+    "username": "-Flashlight-",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.78
+      }
+    ],
+    "last_updated": "2020-03-03T00:22:02Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1118737/covers/list.jpg?1583194936",
+    "nsfw": false,
+    "tags": "earth to"
+  },
+  {
     "id": 1116398,
     "status": "graveyard",
     "bpm": 138,
@@ -11844,6 +14556,26 @@ const data =[
     "nsfw": false,
     "genero": [],
     "tags": "saheko"
+  },
+  {
+    "id": 1102123,
+    "status": "graveyard",
+    "bpm": 260,
+    "artist": "Milharal",
+    "title": "SORRIZO RONALDO",
+    "user_id": 8784535,
+    "creator": "Asenkyo",
+    "username": "Asenkyo",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 7.33
+      }
+    ],
+    "last_updated": "2023-09-10T16:16:46Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/1102123/covers/list.jpg?1696782614",
+    "nsfw": false,
+    "tags": "pqp mil fotos por minuto"
   },
   {
     "id": 1100564,
@@ -13880,6 +16612,26 @@ const data =[
     "tags": "enerugi k4l1 mpb bossa nova pop lounge soft rock jazz fusion dna sony music paulo calasans portuguese português música popular brasileira"
   },
   {
+    "id": 843919,
+    "status": "graveyard",
+    "bpm": 182,
+    "artist": "Roberio e seus teclados",
+    "title": "Atraso na Pensao",
+    "user_id": 8784535,
+    "creator": "Asenkyo",
+    "username": "Asenkyo",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.72
+      }
+    ],
+    "last_updated": "2020-09-14T00:59:33Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/843919/covers/list.jpg?1602464412",
+    "nsfw": false,
+    "tags": "forro brasileiro brasil br tecladinho samba mpb filho ex mulher e complicado pepino"
+  },
+  {
     "id": 839967,
     "genero": [
       "YTPBR"
@@ -15774,6 +18526,26 @@ const data =[
     "tags": "videosdful mashup"
   },
   {
+    "id": 295586,
+    "status": "graveyard",
+    "bpm": 132,
+    "artist": "Pablo do Arrocha",
+    "title": "Maratona do Pablo",
+    "user_id": 2675982,
+    "creator": "Sevigoth",
+    "username": "Sevigoth",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 3.51
+      }
+    ],
+    "last_updated": "2015-03-20T10:46:55Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/295586/covers/list.jpg?0",
+    "nsfw": false,
+    "tags": "pablo arrocha salvador bahia portuguese brazil sofrencia renard vocaloid anime feels"
+  },
+  {
     "id": 292571,
     "status": "graveyard",
     "bpm": 139.99,
@@ -15969,6 +18741,34 @@ const data =[
     "tags": "cirno perfect math class edy lemond leo stronda"
   },
   {
+    "id": 254975,
+    "status": "graveyard",
+    "bpm": 140,
+    "artist": "Psirico",
+    "title": "Lepo Lepo",
+    "user_id": 2675982,
+    "creator": "Sevigoth",
+    "username": "Sevigoth",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.41
+      },
+      {
+        "mode": 0,
+        "stars": 3.4
+      },
+      {
+        "mode": 0,
+        "stars": 4.88
+      }
+    ],
+    "last_updated": "2016-07-21T18:12:42Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/254975/covers/list.jpg?1469124779",
+    "nsfw": false,
+    "tags": "psirico salvador bahia brazil brasil portugues swingueira axe lepo pagode pagodao quebradeira brasileira musica obama dilma aecio renard blue dragon vocaloid zorro rpg osu"
+  },
+  {
     "id": 249771,
     "status": "graveyard",
     "bpm": 145,
@@ -16050,6 +18850,55 @@ const data =[
     "genero": [],
     "nsfw": false,
     "tags": "funk fabriciorby fabricio4p asterio blue dragon gaba amigoproducoes amigos produções marceo marcelo lima portuguese português"
+  },
+  {
+    "id": 239463,
+    "status": "graveyard",
+    "bpm": 145,
+    "artist": "Windy",
+    "title": "Daniel na minha frente",
+    "user_id": 2675982,
+    "creator": "Sevigoth",
+    "username": "Sevigoth",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.52
+      },
+      {
+        "mode": 0,
+        "stars": 4.91
+      },
+      {
+        "mode": 0,
+        "stars": 1.93
+      }
+    ],
+    "last_updated": "2015-02-13T05:58:15Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/239463/covers/list.jpg?0",
+    "nsfw": false,
+    "tags": "tibia daniel paladino remix magic wall portuguese brazil brasil mmorpg rpg edron sd sudden death rune sono windy mesh smith minha frente brtt lord paulistinha renard lapfox vocaloid nightcore swingueira wow ragnarok yaoi yuri gay tenebra"
+  },
+  {
+    "id": 239039,
+    "status": "graveyard",
+    "bpm": 236,
+    "artist": "Igor Kanario",
+    "title": "Sai da frente",
+    "user_id": 2675982,
+    "creator": "Sevigoth",
+    "username": "Sevigoth",
+    "diffs": [
+      {
+        "mode": 0,
+        "stars": 4.86
+      }
+    ],
+    "last_updated": "2015-01-08T18:47:35Z",
+    "thumbnail": "https://assets.ppy.sh/beatmaps/239039/covers/list.jpg?0",
+    "nsfw": false,
+    "tags": "sai da frente igor kanario bahia salvador portuguese brazil brasil swingueira axe pagode baiano renard vocaloid gakupo obama dilma aecio",
+    "genero": []
   },
   {
     "id": 227553,
@@ -16134,7 +18983,10 @@ const data =[
     ],
     "last_updated": "2014-09-30T01:30:05Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/218144/covers/list.jpg?0",
-    "genero": ["Rap", "Hip-Hop"],
+    "genero": [
+      "Rap",
+      "Hip-Hop"
+    ],
     "nsfw": false,
     "tags": ""
   },
@@ -16180,7 +19032,9 @@ const data =[
     ],
     "last_updated": "2014-08-11T18:51:20Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/195844/covers/list.jpg?0",
-    "genero": ["Pop"],
+    "genero": [
+      "Pop"
+    ],
     "nsfw": false,
     "tags": ""
   },
@@ -16291,7 +19145,9 @@ const data =[
     ],
     "last_updated": "2015-02-20T19:05:06Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/141010/covers/list.jpg?0",
-    "genero": ["YTPBR"],
+    "genero": [
+      "YTPBR"
+    ],
     "nsfw": false,
     "tags": "sakura gumi avassaladores ytp catch you catch me marcelo lima amigoproducoes amigoproduções lust near"
   },
@@ -16312,7 +19168,9 @@ const data =[
     ],
     "last_updated": "2014-01-04T17:43:37Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/138662/covers/list.jpg?1458281859",
-    "genero": ["Dubstep"],
+    "genero": [
+      "Dubstep"
+    ],
     "nsfw": false,
     "tags": "tua mãe kuron nao sabe timea banana e hentou nas tags"
   },
@@ -16333,7 +19191,9 @@ const data =[
     ],
     "last_updated": "2012-12-22T16:23:53Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/69942/covers/list.jpg?1458237315",
-    "genero": ["Dubstep"],
+    "genero": [
+      "Dubstep"
+    ],
     "nsfw": false,
     "tags": "skrillessaladores foda avassaladores"
   },
@@ -16354,7 +19214,9 @@ const data =[
     ],
     "last_updated": "2012-12-12T22:30:28Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/68987/covers/list.jpg?0",
-    "genero": ["Funk"],
+    "genero": [
+      "Funk"
+    ],
     "nsfw": true,
     "tags": ""
   },
@@ -16383,7 +19245,9 @@ const data =[
     ],
     "last_updated": "2014-01-22T15:20:11Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/66841/covers/list.jpg?0",
-    "genero": ["YTPBR"],
+    "genero": [
+      "YTPBR"
+    ],
     "nsfw": false,
     "tags": "anamanaguchi my skateboard youtube el chavo chaves"
   },
@@ -16408,7 +19272,10 @@ const data =[
     ],
     "last_updated": "2013-03-19T01:18:43Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/44748/covers/list.jpg?1622053666",
-    "genero": ["Rock", "Pop Rock"],
+    "genero": [
+      "Rock",
+      "Pop Rock"
+    ],
     "nsfw": false,
     "tags": "dinho black gold"
   },
@@ -16429,7 +19296,9 @@ const data =[
     ],
     "last_updated": "2015-02-08T01:20:40Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/40794/covers/list.jpg?1458211454",
-    "genero": ["Funk"],
+    "genero": [
+      "Funk"
+    ],
     "nsfw": false,
     "tags": ""
   }
