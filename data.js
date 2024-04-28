@@ -45,6 +45,7 @@ const data = [
     ],
     "last_updated": "2024-02-16T22:45:23Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2135443/covers/list.jpg?1708123536",
+    "genero": [],
     "nsfw": false,
     "tags": "brasil br funk phonk portugues dj mc rave balada eletronica garota de vermelho"
   },
@@ -65,6 +66,7 @@ const data = [
     ],
     "last_updated": "2024-02-13T14:24:24Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2135142/covers/list.jpg?1707834277",
+    "genero": [],
     "nsfw": false,
     "tags": "japanese japan brazil brasil brasileiro brazillian pt-br ptbr du5t fayew skill issue lol dust idust idu5t faz me moer ai gatinha me da uma chance pra este lixo maravilhoso eu sou galinha quis te olhar mulhar nua pop portuguese samba pagode pagodinho"
   },
@@ -85,6 +87,7 @@ const data = [
     ],
     "last_updated": "2024-02-12T03:21:51Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2134447/covers/list.jpg?1707708125",
+    "genero": [],
     "nsfw": true,
     "tags": "brasil brazil piseiro forro portugues meme"
   },
@@ -105,6 +108,7 @@ const data = [
     ],
     "last_updated": "2024-02-10T19:57:18Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2133618/covers/list.jpg?1707595048",
+    "genero": [],
     "nsfw": false,
     "tags": ""
   },
@@ -129,6 +133,7 @@ const data = [
     ],
     "last_updated": "2024-02-15T01:58:52Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2133180/covers/list.jpg?1707962355",
+    "genero": [],
     "nsfw": false,
     "tags": "nando reis cassia eller album love letter album"
   },
@@ -149,6 +154,7 @@ const data = [
     ],
     "last_updated": "2024-02-17T04:18:22Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2132197/covers/list.jpg?1708143513",
+    "genero": [],
     "nsfw": false,
     "tags": ""
   },
@@ -169,6 +175,7 @@ const data = [
     ],
     "last_updated": "2024-02-01T06:14:49Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2128767/covers/list.jpg?1706768104",
+    "genero": [],
     "nsfw": false,
     "tags": "brasil br portuguese portugues sertanejo country jorge e matheus henrique e juliano universitario pagode brasileiro"
   },
@@ -189,6 +196,7 @@ const data = [
     ],
     "last_updated": "2024-02-04T04:11:07Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2127812/covers/list.jpg?1707019882",
+    "genero": [],
     "nsfw": false,
     "tags": ""
   },
@@ -213,6 +221,7 @@ const data = [
     ],
     "last_updated": "2024-01-30T23:06:17Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2127775/covers/list.jpg?1706655994",
+    "genero": [],
     "nsfw": false,
     "tags": "brasil brazil forro portugues piseiro"
   },
@@ -233,6 +242,7 @@ const data = [
     ],
     "last_updated": "2024-01-28T21:28:33Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2127037/covers/list.jpg?1706477320",
+    "genero": [],
     "nsfw": false,
     "tags": ""
   },
@@ -253,6 +263,7 @@ const data = [
     ],
     "last_updated": "2024-01-23T20:12:14Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2124273/covers/list.jpg?1706040745",
+    "genero": [],
     "nsfw": false,
     "tags": "funk portuguese português herokingwnl brazil brasil muichiro mandrake"
   },
@@ -273,6 +284,7 @@ const data = [
     ],
     "last_updated": "2024-01-23T05:02:45Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2123980/covers/list.jpg?1705986177",
+    "genero": [],
     "nsfw": true,
     "tags": ""
   },
@@ -293,6 +305,7 @@ const data = [
     ],
     "last_updated": "2024-01-23T22:50:30Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2123848/covers/list.jpg?1706050242",
+    "genero": [],
     "nsfw": false,
     "tags": "brasil brazil arrocha portugues jump love"
   },
@@ -317,6 +330,7 @@ const data = [
     ],
     "last_updated": "2024-02-06T01:24:03Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2120457/covers/list.jpg?1707182658",
+    "genero": [],
     "nsfw": false,
     "tags": "howrengar portuguese brasil brazil portugues reggae fusion pop other mpb"
   },
@@ -337,6 +351,7 @@ const data = [
     ],
     "last_updated": "2024-01-15T03:27:30Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2118740/covers/list.jpg?1707708666",
+    "genero": [],
     "nsfw": false,
     "tags": "só porque eu falo ingles inglês duo duolingo português portuguese portugese portugues brasil brazil ptbr pt br pt-br"
   },
@@ -407,6 +422,7 @@ const data = [
     ],
     "last_updated": "2024-01-18T22:16:32Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2114697/covers/list.jpg?1708036225",
+    "genero": [],
     "nsfw": false,
     "tags": "brasil pop portugues brazil mpb romantic"
   },
@@ -877,6 +893,7 @@ const data = [
     ],
     "last_updated": "2023-12-10T02:04:28Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2098018/covers/list.jpg?1704594617",
+    "genero": [],
     "nsfw": false,
     "tags": "brasil brazil funk carioca portugues"
   },
@@ -1086,6 +1103,7 @@ const data = [
     ],
     "last_updated": "2023-11-15T17:46:49Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2089821/covers/list.jpg?1702490482",
+    "genero": [],
     "nsfw": true,
     "tags": "funk electronic eletronica portugues brasil brazil pt br tik tok tiktok dancinha pesado mc mc brasileira brasileiras brasileiro brasileiros amor love +18 explicit explicito"
   },
@@ -1753,6 +1771,7 @@ const data = [
     ],
     "last_updated": "2024-01-15T02:45:43Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2056072/covers/list.jpg?1707706857",
+    "genero": [],
     "nsfw": true,
     "tags": "portuguese português brazil brasil sertanejo"
   },
@@ -1941,6 +1960,7 @@ const data = [
     ],
     "last_updated": "2023-08-13T22:40:46Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2044130/covers/list.jpg?1694386869",
+    "genero": [],
     "nsfw": false,
     "tags": "rap hip hop hip-hop naruto portuguese portugues"
   },
@@ -1986,6 +2006,7 @@ const data = [
     ],
     "last_updated": "2023-08-09T01:26:25Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2041398/covers/list.jpg?1693963853",
+    "genero": [],
     "nsfw": false,
     "tags": "voodooism cysmix kusemono records"
   },
@@ -2260,6 +2281,7 @@ const data = [
     ],
     "last_updated": "2023-07-29T00:33:09Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2024915/covers/list.jpg?1690590805",
+    "genero": [],
     "nsfw": true,
     "tags": "funk carioca brazilian brasileiro brazil brasil portuguese português mc dj"
   },
@@ -2280,6 +2302,7 @@ const data = [
     ],
     "last_updated": "2023-07-11T00:11:52Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/2024354/covers/list.jpg?1691454645",
+    "genero": [],
     "nsfw": true,
     "tags": "brasil 150 bpm funk"
   },
@@ -2690,6 +2713,7 @@ const data = [
     ],
     "last_updated": "2023-05-01T22:53:07Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1985283/covers/list.jpg?1685401247",
+    "genero": [],
     "nsfw": false,
     "tags": "pop rock portuguese português geracao geração z"
   },
@@ -2785,6 +2809,7 @@ const data = [
     ],
     "last_updated": "2023-04-16T23:23:55Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1977036/covers/list.jpg?1684107167",
+    "genero": [],
     "nsfw": false,
     "tags": ""
   },
@@ -2805,6 +2830,7 @@ const data = [
     ],
     "last_updated": "2023-04-16T20:39:23Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1976927/covers/list.jpg?1684098078",
+    "genero": [],
     "nsfw": false,
     "tags": "brazil rock emo kento matsuura"
   },
@@ -2869,6 +2895,7 @@ const data = [
     ],
     "last_updated": "2023-04-14T03:23:04Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1975083/covers/list.jpg?1683862293",
+    "genero": [],
     "nsfw": false,
     "tags": "brasil brazil portuguese br portugues"
   },
@@ -2910,6 +2937,7 @@ const data = [
     ],
     "last_updated": "2023-04-10T01:00:31Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1972720/covers/list.jpg?1683509504",
+    "genero": [],
     "nsfw": false,
     "tags": "pagode samba churrasco brazil brasil portuguese portugues o trem das onze adoniran barbosa"
   },
@@ -2930,6 +2958,7 @@ const data = [
     ],
     "last_updated": "2023-04-07T03:38:39Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1970566/covers/list.jpg?1683259310",
+    "genero": [],
     "nsfw": true,
     "tags": "portuguese portugues brasil brazil brazilian brasileira mc xupeta bota e aperta br brega funk shit music musica forro ze droguinha juliet shitpost butico"
   },
@@ -2950,6 +2979,7 @@ const data = [
     ],
     "last_updated": "2023-04-05T21:11:40Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1969893/covers/list.jpg?1683149473",
+    "genero": [],
     "nsfw": false,
     "tags": ""
   },
@@ -3119,6 +3149,7 @@ const data = [
     ],
     "last_updated": "2024-02-06T03:14:44Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1958298/covers/list.jpg?1707189302",
+    "genero": [],
     "nsfw": false,
     "tags": "pop hyperpop portuguese português brazilian hyper hip-hop hiphop hip hop glitch promises production produced by"
   },
@@ -3334,6 +3365,7 @@ const data = [
     ],
     "last_updated": "2023-02-24T20:07:15Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1946237/covers/list.jpg?1679689855",
+    "genero": [],
     "nsfw": false,
     "tags": "portuguese rock brabo"
   },
@@ -3572,6 +3604,7 @@ const data = [
     ],
     "last_updated": "2023-02-08T02:03:22Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1927036/covers/list.jpg?1678242627",
+    "genero": [],
     "nsfw": true,
     "tags": "brasil brazilian portuguese funk"
   },
@@ -3642,6 +3675,7 @@ const data = [
     ],
     "last_updated": "2023-02-06T20:10:23Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1925599/covers/list.jpg?1678134639",
+    "genero": [],
     "nsfw": false,
     "tags": "chegou a hora de recomeçar recomecar melodic hardcore punk rock portuguese português"
   },
@@ -3683,6 +3717,7 @@ const data = [
     ],
     "last_updated": "2023-01-14T19:27:34Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1922516/covers/list.jpg?1676143889",
+    "genero": [],
     "nsfw": true,
     "tags": ""
   },
@@ -3703,6 +3738,7 @@ const data = [
     ],
     "last_updated": "2023-01-14T19:14:08Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1922503/covers/list.jpg?1676143923",
+    "genero": [],
     "nsfw": false,
     "tags": "portugues portuguese rock metal raps rap do salsicha instinto superior iron master brasil brazil brasilian music musicas brasileiras musica brasileira collab keikin kerlack suigintou stream map 170 bpm"
   },
@@ -3961,6 +3997,7 @@ const data = [
     ],
     "last_updated": "2024-02-12T01:54:10Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1904339/covers/list.jpg?1707702868",
+    "genero": [],
     "nsfw": true,
     "tags": "portugues portuguese rap hip hop hip-hop brasil brazil brazilian brasileiro racionais nego drama negro favela comunidade periferia raiz antigo old songs"
   },
@@ -4089,6 +4126,7 @@ const data = [
     ],
     "last_updated": "2022-12-11T04:29:10Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1901122/covers/list.jpg?1673152303",
+    "genero": [],
     "nsfw": false,
     "tags": "brasil ronaldinho mbappe paqueta jack quad stamina anchor jhown"
   },
@@ -4109,6 +4147,7 @@ const data = [
     ],
     "last_updated": "2022-12-09T19:05:50Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1900246/covers/list.jpg?1673033484",
+    "genero": [],
     "nsfw": false,
     "tags": "brasil brazil trap 30praum br portuguese"
   },
@@ -4231,6 +4270,7 @@ const data = [
     ],
     "last_updated": "2022-11-29T22:35:35Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1893321/covers/list.jpg?1672182031",
+    "genero": [],
     "nsfw": true,
     "tags": "funk portugues portuguese pesadao favela bailao mc mazzie ele te bota soca soca rd wizard keikin kerlack collab short brasil brasileira pancadao brazil low bpm funk proibidao gaiola baile nova subway surfers edit video brasilian"
   },
@@ -4357,6 +4397,7 @@ const data = [
     ],
     "last_updated": "2022-11-13T15:38:03Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1884775/covers/list.jpg?1670774531",
+    "genero": [],
     "nsfw": false,
     "tags": ""
   },
@@ -4462,6 +4503,7 @@ const data = [
     ],
     "last_updated": "2022-11-08T01:13:04Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1878508/covers/list.jpg?1670290232",
+    "genero": [],
     "nsfw": false,
     "tags": ""
   },
@@ -4567,6 +4609,7 @@ const data = [
     ],
     "last_updated": "2022-11-07T17:59:08Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1869220/covers/list.jpg?1670263253",
+    "genero": [],
     "nsfw": false,
     "tags": "brasil brazil cabelinho portuguese portugues"
   },
@@ -4587,6 +4630,7 @@ const data = [
     ],
     "last_updated": "2023-09-10T15:38:55Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1868738/covers/list.jpg?1696780834",
+    "genero": [],
     "nsfw": false,
     "tags": "musica do pará brazil brasil"
   },
@@ -4706,6 +4750,7 @@ const data = [
     ],
     "last_updated": "2022-10-14T23:17:02Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1866269/covers/list.jpg?1668209444",
+    "genero": [],
     "nsfw": false,
     "tags": "portuguese portugues português rock brasil recordtv intro opening abertura novela soap opera"
   },
@@ -4918,6 +4963,7 @@ const data = [
     ],
     "last_updated": "2022-09-22T23:48:34Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1853359/covers/list.jpg?1666310424",
+    "genero": [],
     "nsfw": false,
     "tags": "portugues brasil brazil pop indie lou garcia não fosse tão tarde musicas brasileiras lenta relaxing low bpm short memorias lembranças amor saudade flow br"
   },
@@ -5114,6 +5160,7 @@ const data = [
     ],
     "last_updated": "2022-09-11T15:23:48Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1846068/covers/list.jpg?1665329468",
+    "genero": [],
     "nsfw": false,
     "tags": "portugues do brasil brazil musicas em br brasileiras sertanejo luan santana meteoro da paixao facil show explosão de sentimentos amor e paixão xxotsutsukixx mapas"
   },
@@ -5134,6 +5181,7 @@ const data = [
     ],
     "last_updated": "2022-09-08T23:33:30Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1844502/covers/list.jpg?1665100838",
+    "genero": [],
     "nsfw": false,
     "tags": "quebra-cabeça quebra cabeça quebra-cabeca quebra cabeca lulu santos brazil portuguese português rap hip-hop hip hop"
   },
@@ -5320,6 +5368,7 @@ const data = [
     ],
     "last_updated": "2022-08-26T02:43:39Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1835180/covers/list.jpg?1663902088",
+    "genero": [],
     "nsfw": false,
     "tags": "valdemar schettini paulo munhoz brasil brazil brazilian português portugues portuguese furry rock anime opening op abertura tv size tecnokena"
   },
@@ -5593,6 +5642,7 @@ const data = [
     ],
     "last_updated": "2022-08-18T09:09:20Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1824362/covers/list.jpg?1660813776",
+    "genero": [],
     "nsfw": false,
     "tags": "brasil brazilian brasileiro carioca rio de janeiro rj funk português portuguese favela latin piririm alguem alguém ligou pra para mim quem e é sou eu bola de fogo calor ta de matar latino south america hip hop hiphop to tô ficando vou atolar calma dj marlboro tati quebra-barraco version other pop popular (enterradinha) kukkai"
   },
@@ -5921,6 +5971,7 @@ const data = [
     ],
     "last_updated": "2022-07-05T17:54:11Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1800103/covers/list.jpg?1659463273",
+    "genero": [],
     "nsfw": false,
     "tags": "dj marlboro funk carioca furacao furacão 2000 brasil brazil portuguese portugues português"
   },
@@ -6006,6 +6057,7 @@ const data = [
     ],
     "last_updated": "2022-07-30T19:40:20Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1795162/covers/list.jpg?1661630454",
+    "genero": [],
     "nsfw": false,
     "tags": "portuguese rock nacional mpb brasil long map"
   },
@@ -6521,6 +6573,7 @@ const data = [
     ],
     "last_updated": "2022-04-27T02:37:26Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1750329/covers/list.jpg?1651027062",
+    "genero": [],
     "nsfw": false,
     "tags": "pop portuguese portugues português pirata brasil brazil"
   },
@@ -6736,6 +6789,7 @@ const data = [
     ],
     "last_updated": "2022-05-03T13:19:58Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1730103/covers/list.jpg?1654003860",
+    "genero": [],
     "nsfw": false,
     "tags": "vem aqui brasil brazil pop portuguese r&b dance-pop"
   },
@@ -6777,6 +6831,7 @@ const data = [
     ],
     "last_updated": "2022-03-22T14:41:48Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1725204/covers/list.jpg?1650380437",
+    "genero": [],
     "nsfw": false,
     "tags": "brasil português pop melim portuguese reggae uuuuuuuuuuuuu"
   },
@@ -6882,6 +6937,7 @@ const data = [
     ],
     "last_updated": "2022-03-19T03:32:51Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1719204/covers/list.jpg?1650081635",
+    "genero": [],
     "nsfw": false,
     "tags": "brazil funk ar 10 meme"
   },
@@ -7006,6 +7062,7 @@ const data = [
     ],
     "last_updated": "2023-01-15T19:34:06Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1714120/covers/list.jpg?1676232030",
+    "genero": [],
     "nsfw": true,
     "tags": "jump training jump practice brazil funk brasil portugues explicit meme shitfunk ar 10 angel"
   },
@@ -7126,6 +7183,7 @@ const data = [
     ],
     "last_updated": "2022-02-23T23:15:27Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1706089/covers/list.jpg?1648078261",
+    "genero": [],
     "nsfw": false,
     "tags": ""
   },
@@ -7208,6 +7266,7 @@ const data = [
     ],
     "last_updated": "2022-08-10T13:15:57Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1699082/covers/list.jpg?1662557470",
+    "genero": [],
     "nsfw": false,
     "tags": "brasil funk chordjack antigas cj anchorjack"
   },
@@ -7260,6 +7319,7 @@ const data = [
     ],
     "last_updated": "2022-02-14T13:16:15Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1698231/covers/list.jpg?1647264662",
+    "genero": [],
     "nsfw": false,
     "tags": "jack chordjack anchorjack cj dense stamina"
   },
@@ -7433,6 +7493,7 @@ const data = [
     ],
     "last_updated": "2022-06-01T02:35:16Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1682859/covers/list.jpg?1656471616",
+    "genero": [],
     "nsfw": true,
     "tags": "funk brazil brasil training jump practice bass"
   },
@@ -7582,6 +7643,7 @@ const data = [
     ],
     "last_updated": "2022-01-12T00:47:36Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1672386/covers/list.jpg?1644368487",
+    "genero": [],
     "nsfw": true,
     "tags": "mc maha funk anime funk arcane funk br arcane imagine dragons arcane arcane funk mc maha arcane"
   },
@@ -7648,6 +7710,7 @@ const data = [
     ],
     "last_updated": "2022-09-23T22:53:36Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1666262/covers/list.jpg?1666393235",
+    "genero": [],
     "nsfw": true,
     "tags": "montero (call me by your name) - lil nas x stay - the kid laroi & justin bieber leave the door open - silk sonic beggin’ - maneskin i wanna be your slave - maneskin need to know - doja cat kiss me more - doja cat ft. sza butter - bts peaches - justin bieber life goes on - oliver tree bipolar - mc davi mc pedrinho & mc don juan trava na pose chama no zoom dá um close - dj patrick muniz taca a xereca pra mim - mc kaique da vp se tá solteira - fbc freio da blazer - l7nnon m4 - teto matuê quer voar - matuê a queda - gloria groove tiffany - md chefe rei lacoste - md chefe penhasco. - luísa sonza baby me atende - mateus fernandes dilsinho não não vou - mari fernandez industry baby - lil nas x money - lisa happier than ever - billie eilish good 4 u - olívia rodrigo esqueça-me se for capaz - marília mendonça maiara & maraísa gabriel bueno"
   },
@@ -7689,6 +7752,7 @@ const data = [
     ],
     "last_updated": "2022-09-25T17:46:01Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1664118/covers/list.jpg?1666548018",
+    "genero": [],
     "nsfw": true,
     "tags": ""
   },
@@ -7756,6 +7820,7 @@ const data = [
     ],
     "last_updated": "2021-12-28T19:26:51Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1661302/covers/list.jpg?1643139053",
+    "genero": [],
     "nsfw": false,
     "tags": "portuguese desafio hardcore brasil rap minecraft vinheta abertura bolsonaro xxtentacion pisadinha"
   },
@@ -7964,6 +8029,7 @@ const data = [
     ],
     "last_updated": "2021-12-05T03:43:10Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1639712/covers/list.jpg?1641096033",
+    "genero": [],
     "nsfw": false,
     "tags": ""
   },
@@ -7984,6 +8050,7 @@ const data = [
     ],
     "last_updated": "2021-11-29T22:49:47Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1639610/covers/list.jpg?1640646050",
+    "genero": [],
     "nsfw": false,
     "tags": "portuguese rock triste ;-; uwu"
   },
@@ -8004,6 +8071,7 @@ const data = [
     ],
     "last_updated": "2021-11-29T21:12:38Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1639558/covers/list.jpg?1640640646",
+    "genero": [],
     "nsfw": false,
     "tags": "portuguese rock brasil bolsonaro kk"
   },
@@ -8053,6 +8121,7 @@ const data = [
     ],
     "last_updated": "2022-05-02T17:18:14Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1632105/covers/list.jpg?1653931826",
+    "genero": [],
     "nsfw": true,
     "tags": ""
   },
@@ -8081,6 +8150,7 @@ const data = [
     ],
     "last_updated": "2022-01-01T16:46:15Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1627674/covers/list.jpg?1641055589",
+    "genero": [],
     "nsfw": false,
     "tags": "português portugues portuguese cartoon earth to brasil brazil christmas xmas júpiter jupiter cláudio claudio clyde kid andré marcio nigro anime x-mas pop"
   },
@@ -8130,6 +8200,7 @@ const data = [
     ],
     "last_updated": "2021-12-26T19:49:46Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1626648/covers/list.jpg?1642968036",
+    "genero": [],
     "nsfw": true,
     "tags": "tik tok md chefe brasil br trap nacional drip"
   },
@@ -8206,6 +8277,7 @@ const data = [
     ],
     "last_updated": "2021-10-30T12:27:44Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1614599/covers/list.jpg?1638016289",
+    "genero": [],
     "nsfw": false,
     "tags": "péricles paramore brasil collab samba rock brazilian collab"
   },
@@ -8247,6 +8319,7 @@ const data = [
     ],
     "last_updated": "2021-10-22T00:57:00Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1606071/covers/list.jpg?1637283671",
+    "genero": [],
     "nsfw": false,
     "tags": "restará indie rock noise shoegaze portuguese português brazil brasil"
   },
@@ -8296,6 +8369,7 @@ const data = [
     ],
     "last_updated": "2021-10-15T14:30:06Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1600015/covers/list.jpg?1636729307",
+    "genero": [],
     "nsfw": true,
     "tags": "portuguese electronic funk carioca version dj skype"
   },
@@ -8406,6 +8480,7 @@ const data = [
     ],
     "last_updated": "2021-10-07T11:37:50Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1595323/covers/list.jpg?1636027267",
+    "genero": [],
     "nsfw": false,
     "tags": "sandra peres ze zé tatit vem dançar com a gente dancar brazil brasil portuguese português children kids infantil"
   },
@@ -8555,6 +8630,7 @@ const data = [
     ],
     "last_updated": "2021-09-30T22:46:31Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1581437/covers/list.jpg?1633042007",
+    "genero": [],
     "nsfw": false,
     "tags": "clapivara clarissamuller pop portuguese tiktok tik tok brazil brasil poppunk indiepop"
   },
@@ -8649,6 +8725,7 @@ const data = [
     ],
     "last_updated": "2023-10-01T22:16:54Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1578436/covers/list.jpg?1698618626",
+    "genero": [],
     "nsfw": false,
     "tags": "moda casual de luxo brasil md chefe md trap trap br br"
   },
@@ -8716,6 +8793,7 @@ const data = [
     ],
     "last_updated": "2021-10-05T15:14:42Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1575645/covers/list.jpg?1635867068",
+    "genero": [],
     "nsfw": false,
     "tags": "to tô ficando (enterradinha) dj marlboro tati quebra-barraco portuguese português funk carioca mc version other"
   },
@@ -8761,6 +8839,7 @@ const data = [
     ],
     "last_updated": "2021-09-14T22:15:43Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1566933/covers/list.jpg?1634077820",
+    "genero": [],
     "nsfw": true,
     "tags": ""
   },
@@ -8781,6 +8860,7 @@ const data = [
     ],
     "last_updated": "2021-09-01T15:09:44Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1566059/covers/list.jpg?1632929489",
+    "genero": [],
     "nsfw": true,
     "tags": "sbt instrumental"
   },
@@ -8907,6 +8987,7 @@ const data = [
     ],
     "last_updated": "2021-08-22T19:11:05Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1557233/covers/list.jpg?1632079904",
+    "genero": [],
     "nsfw": false,
     "tags": "rap anime 7 minutoz rap da akatsuki anime rap naruto rap naruto"
   },
@@ -8935,6 +9016,7 @@ const data = [
     ],
     "last_updated": "2021-08-18T04:26:03Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1552872/covers/list.jpg?1631680239",
+    "genero": [],
     "nsfw": false,
     "tags": "everson zoio caique brasil hardcore desafio pinga azul"
   },
@@ -8980,6 +9062,7 @@ const data = [
     ],
     "last_updated": "2021-08-17T11:39:45Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1552135/covers/list.jpg?1631620870",
+    "genero": [],
     "nsfw": false,
     "tags": "davy jones pimba opening instrumental electronic brasil brazil"
   },
@@ -9008,6 +9091,7 @@ const data = [
     ],
     "last_updated": "2021-08-25T14:48:03Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1548819/covers/list.jpg?1632322895",
+    "genero": [],
     "nsfw": false,
     "tags": "chabuca granda rede tv globo opening abertura novela instrumental"
   },
@@ -9123,6 +9207,7 @@ const data = [
     ],
     "last_updated": "2021-09-08T12:33:47Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1545380/covers/list.jpg?1633525277",
+    "genero": [],
     "nsfw": false,
     "tags": "preco preço curto... prazo longo rede tv globo chorao chorão vou portuguese rock intro soap opera português other opening malhacao"
   },
@@ -9329,6 +9414,7 @@ const data = [
     ],
     "last_updated": "2021-07-20T22:57:17Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1525843/covers/list.jpg?1629241266",
+    "genero": [],
     "nsfw": false,
     "tags": ""
   },
@@ -9349,6 +9435,7 @@ const data = [
     ],
     "last_updated": "2021-07-19T21:58:44Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1524040/covers/list.jpg?1629151236",
+    "genero": [],
     "nsfw": false,
     "tags": ""
   },
@@ -9393,6 +9480,7 @@ const data = [
     ],
     "last_updated": "2023-02-08T00:49:10Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1521342/covers/list.jpg?1678237214",
+    "genero": [],
     "nsfw": false,
     "tags": ""
   },
@@ -9571,6 +9659,7 @@ const data = [
     ],
     "last_updated": "2021-07-07T20:07:20Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1512825/covers/list.jpg?1628109119",
+    "genero": [],
     "nsfw": false,
     "tags": "poze do rodo funk trap brasil brazil"
   },
@@ -9731,6 +9820,7 @@ const data = [
     ],
     "last_updated": "2022-11-11T20:59:41Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1502480/covers/list.jpg?1670619644",
+    "genero": [],
     "nsfw": false,
     "tags": "brasil vmz brazil portuguese português"
   },
@@ -9937,6 +10027,7 @@ const data = [
     ],
     "last_updated": "2022-10-11T16:54:48Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1483855/covers/list.jpg?1667926868",
+    "genero": [],
     "nsfw": false,
     "tags": "baroes da pisadinha forro brasil portugues pisadinha brasileira perna bamba basta voce me ligar brazil musica brasileira"
   },
@@ -10164,6 +10255,7 @@ const data = [
     ],
     "last_updated": "2021-04-15T22:58:44Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1433541/covers/list.jpg?1620946846",
+    "genero": [],
     "nsfw": false,
     "tags": "brazilian songs brasil rio lo fi"
   },
@@ -10307,6 +10399,7 @@ const data = [
     ],
     "last_updated": "2022-10-19T21:52:28Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1426829/covers/list.jpg?1668636013",
+    "genero": [],
     "nsfw": false,
     "tags": "brazil sertanejo"
   },
@@ -10476,6 +10569,7 @@ const data = [
     ],
     "last_updated": "2021-03-16T09:58:30Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1403733/covers/list.jpg?1618308042",
+    "genero": [],
     "nsfw": false,
     "tags": "mulher melancia brasil brazil meme"
   },
@@ -10855,6 +10949,7 @@ const data = [
     ],
     "last_updated": "2021-02-14T01:02:33Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1374475/covers/list.jpg?1615685442",
+    "genero": [],
     "nsfw": false,
     "tags": ""
   },
@@ -10879,6 +10974,7 @@ const data = [
     ],
     "last_updated": "2021-09-09T05:27:34Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1372680/covers/list.jpg?1633584620",
+    "genero": [],
     "nsfw": true,
     "tags": ""
   },
@@ -10996,6 +11092,7 @@ const data = [
     ],
     "last_updated": "2021-02-21T05:23:30Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1368142/covers/list.jpg?1616304614",
+    "genero": [],
     "nsfw": false,
     "tags": "touhou sorrizo ronaldo speedcore heian alien nue houjuu undefined fantastic object marathon kurokotei featured artist syst hanik joakh endou- xxluizxx47"
   },
@@ -11016,6 +11113,7 @@ const data = [
     ],
     "last_updated": "2021-02-10T00:46:31Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1366459/covers/list.jpg?1615338035",
+    "genero": [],
     "nsfw": false,
     "tags": "brasil maconha tiba rei"
   },
@@ -11696,6 +11794,7 @@ const data = [
     ],
     "last_updated": "2020-12-15T15:56:15Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1321126/covers/list.jpg?1610467225",
+    "genero": [],
     "nsfw": false,
     "tags": ""
   },
@@ -11768,6 +11867,7 @@ const data = [
     ],
     "last_updated": "2021-08-05T01:59:22Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1316860/covers/list.jpg?1630549818",
+    "genero": [],
     "nsfw": false,
     "tags": ""
   },
@@ -11909,6 +12009,7 @@ const data = [
     ],
     "last_updated": "2021-05-30T01:46:28Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1302219/covers/list.jpg?1624759216",
+    "genero": [],
     "nsfw": false,
     "tags": "brasil nave espacial samanta machado liu dj br eletronica portugues"
   },
@@ -12079,6 +12180,7 @@ const data = [
     ],
     "last_updated": "2020-11-04T17:40:28Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1293197/covers/list.jpg?1606932076",
+    "genero": [],
     "nsfw": false,
     "tags": "moledo cavaleiros do zodíaco opening abertura meu jingle oficial 51 \"mamaefalei\""
   },
@@ -12317,6 +12419,7 @@ const data = [
     ],
     "last_updated": "2021-08-27T04:55:14Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1282680/covers/list.jpg?1632459615",
+    "genero": [],
     "nsfw": true,
     "tags": "brasil tuê matuê tuezim mpb baiano bahia"
   },
@@ -12761,6 +12864,7 @@ const data = [
     ],
     "last_updated": "2020-09-15T19:54:49Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1257531/covers/list.jpg?1602619235",
+    "genero": [],
     "nsfw": false,
     "tags": ""
   },
@@ -12887,6 +12991,7 @@ const data = [
     ],
     "last_updated": "2020-11-10T04:06:57Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1247959/covers/list.jpg?1622196673",
+    "genero": [],
     "nsfw": false,
     "tags": "portuguese funk carioca brazil brasil kqrth skull kid skid vrnl the bros 3 fácil difícil kantan futsuu muzukashii oni"
   },
@@ -12995,6 +13100,7 @@ const data = [
     ],
     "last_updated": "2020-08-16T23:19:57Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1237816/covers/list.jpg?1600039823",
+    "genero": [],
     "nsfw": false,
     "tags": "brasil funny argentina"
   },
@@ -13036,6 +13142,7 @@ const data = [
     ],
     "last_updated": "2020-08-07T06:09:54Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1230965/covers/list.jpg?1599201033",
+    "genero": [],
     "nsfw": false,
     "tags": ""
   },
@@ -13800,6 +13907,7 @@ const data = [
     ],
     "last_updated": "2020-04-23T02:34:29Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1153876/covers/list.jpg?1587609287",
+    "genero": [],
     "nsfw": false,
     "tags": ""
   },
@@ -13940,6 +14048,7 @@ const data = [
     ],
     "last_updated": "2020-04-25T22:28:17Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1135641/covers/list.jpg?1587853715",
+    "genero": [],
     "nsfw": false,
     "tags": "cheiro de pneu queimado mc cidinho e doca funk brasil shitmap"
   },
@@ -14289,6 +14398,7 @@ const data = [
     ],
     "last_updated": "2020-03-03T00:22:02Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1118737/covers/list.jpg?1583194936",
+    "genero": [],
     "nsfw": false,
     "tags": "earth to"
   },
@@ -14574,6 +14684,7 @@ const data = [
     ],
     "last_updated": "2023-09-10T16:16:46Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/1102123/covers/list.jpg?1696782614",
+    "genero": [],
     "nsfw": false,
     "tags": "pqp mil fotos por minuto"
   },
@@ -16628,6 +16739,7 @@ const data = [
     ],
     "last_updated": "2020-09-14T00:59:33Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/843919/covers/list.jpg?1602464412",
+    "genero": [],
     "nsfw": false,
     "tags": "forro brasileiro brasil br tecladinho samba mpb filho ex mulher e complicado pepino"
   },
@@ -18542,6 +18654,7 @@ const data = [
     ],
     "last_updated": "2015-03-20T10:46:55Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/295586/covers/list.jpg?0",
+    "genero": [],
     "nsfw": false,
     "tags": "pablo arrocha salvador bahia portuguese brazil sofrencia renard vocaloid anime feels"
   },
@@ -18765,6 +18878,7 @@ const data = [
     ],
     "last_updated": "2016-07-21T18:12:42Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/254975/covers/list.jpg?1469124779",
+    "genero": [],
     "nsfw": false,
     "tags": "psirico salvador bahia brazil brasil portugues swingueira axe lepo pagode pagodao quebradeira brasileira musica obama dilma aecio renard blue dragon vocaloid zorro rpg osu"
   },
@@ -18876,6 +18990,7 @@ const data = [
     ],
     "last_updated": "2015-02-13T05:58:15Z",
     "thumbnail": "https://assets.ppy.sh/beatmaps/239463/covers/list.jpg?0",
+    "genero": [],
     "nsfw": false,
     "tags": "tibia daniel paladino remix magic wall portuguese brazil brasil mmorpg rpg edron sd sudden death rune sono windy mesh smith minha frente brtt lord paulistinha renard lapfox vocaloid nightcore swingueira wow ragnarok yaoi yuri gay tenebra"
   },
