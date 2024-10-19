@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>osu! br rhythms</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nstyle.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <header class="title-header">
+            <img src="assets/brasil.png">
+            <div id="main-title">osu! brazilian rhythms</div>
+        </header>
+
+        <main>
+            <div id="subtitle">Envio de mapas</div>
+            <form method="post">
+                <label for="link">Link do mapa</label>
+                <input type="url" id="link" name="link" placeholder="https://osu.ppy.sh/beatmapsets/123456" required>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </main>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const form = document.querySelector("form");
+            const linkInput = document.getElementById("link");
+
+            form.addEventListener("submit", function (event) {
+                event.preventDefault();
+                const linkValue = linkInput.value;
+                console.log("Link enviado: ", linkValue);
+
+                const result = document.createElement("p");
+                result.textContent = `Link enviado: ${linkValue}`;
+                form.appendChild(result);
+            });
+        });
+    </script>
+</body>
+
+</html>

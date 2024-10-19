@@ -26,6 +26,54 @@ body {
   font-weight: 400;
 }
 
+form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ebebeb;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+form label {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333;
+  width: 100%;
+}
+
+form input[type="url"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  margin-bottom: 15px;
+  transition: border-color 0.3s ease;
+}
+
+form input[type="url"]:focus {
+  border-color: #009688;
+  outline: none;
+}
+
+form button {
+  background-color: #009688;
+  color: white;
+  font-size: 1em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #00796b;
+}
+
 .title-header {
   width: 100%;
   margin: auto;
